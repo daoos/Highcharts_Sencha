@@ -4,7 +4,7 @@ Ext.define('Highcharts.store.UpdateNoRecord', {
   autoLoad : false,
   proxy : {
     type : 'ajax',
-    url : './data/noRecord.php',
+    url : './data/noRecord.json',
     reader : {
       type : 'json',
       root : 'rows'

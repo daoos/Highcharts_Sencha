@@ -2,9 +2,9 @@ Ext.define('Highcharts.store.IrregularData', {
   extend : 'Ext.data.Store',
   autoLoad : false,
   model: 'Highcharts.model.IrregularData',
-  proxy : { 
+  proxy : {
     type: 'ajax',
-    url: './data/irregular.php',
+    url: './data/irregular.json',
     extraParams: {
         delay: 5
     },
@@ -15,4 +15,3 @@ Ext.define('Highcharts.store.IrregularData', {
   },
   storeId: 'irregularData'
 });
-

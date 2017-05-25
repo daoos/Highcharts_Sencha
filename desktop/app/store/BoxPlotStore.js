@@ -2,7 +2,7 @@ Ext.define('Highcharts.store.BoxPlotStore', {
   extend : 'Ext.data.Store',
   autoLoad : false,
   model: 'Highcharts.model.BoxPlotData',
-  proxy : { 
+  proxy : {
     type: 'ajax',
     url: './data/boxplot.json',
     reader : {
@@ -12,4 +12,3 @@ Ext.define('Highcharts.store.BoxPlotStore', {
   },
   storeId: 'boxplot'
 });
-

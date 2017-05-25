@@ -4,7 +4,7 @@ Ext.define('Highcharts.store.Scatter3d', {
   model: 'Highcharts.model.Scatter3d',
   proxy : {
     type : 'ajax',
-    url : './data/scatter3d.php',
+    url : './data/scatter3d.json',
     reader : {
       type : 'json',
       root : 'rows'

@@ -30,10 +30,10 @@ Ext.require('Chart.ux.Highcharts.WaterfallSerie');
 Ext.require('Chart.ux.Highcharts.PyramidSerie');
 
 // ALWAYS POST!!
-Ext.override(Ext.data.proxy.Ajax,{ 
-    getMethod: function(request) { 
-        return 'POST'; 
-    } 
+Ext.override(Ext.data.proxy.Ajax,{
+    getMethod: function(request) {
+        return 'GET'; 
+    }
 });
 
 Ext.ns("Demo");
@@ -49,7 +49,7 @@ Ext.application({
     launch : function() {
 
         // For joekuan.org website
-        if (Ext.get('loading-mask')) 
+        if (Ext.get('loading-mask'))
             Ext.get('loading-mask').fadeOut({remove:true});
 
     var size = Ext.getBody().getViewSize();

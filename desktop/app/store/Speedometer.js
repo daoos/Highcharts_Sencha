@@ -2,9 +2,9 @@ Ext.define('Highcharts.store.Speedometer', {
   extend : 'Ext.data.Store',
   autoLoad : false,
   model: 'Highcharts.model.Speedometer',
-  proxy : { 
+  proxy : {
     type: 'ajax',
-    url: './data/speed.php',
+    url: './data/speed.json',
     reader : {
       type: 'json',
       root: 'rows'
@@ -12,4 +12,3 @@ Ext.define('Highcharts.store.Speedometer', {
   },
   storeId: 'speed'
 });
-

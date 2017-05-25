@@ -4,7 +4,7 @@ Ext.define('Highcharts.store.NullTemperature', {
   autoLoad : false,
   proxy : {
     type : 'ajax',
-    url : './data/temp_example.php',
+    url : './data/temp_example.json',
     extraParams: { random: 1 },
     reader : {
       type : 'json',

@@ -4,7 +4,7 @@ Ext.define('Highcharts.store.TempSummary', {
   autoLoad : false,
   proxy : {
     type : 'ajax',
-    url : './data/temp_example.php',
+    url : './data/temp_example.json',
     extraParams: { summary: 1 },
     reader : {
       type : 'json',

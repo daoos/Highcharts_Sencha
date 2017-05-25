@@ -2,9 +2,9 @@ Ext.define('Highcharts.store.BrowsersJune', {
   extend : 'Ext.data.Store',
   autoLoad : false,
   model: 'Highcharts.model.BrowsersJune',
-  proxy : { 
+  proxy : {
     type: 'ajax',
-    url: './data/browsers_june.php',
+    url: './data/browsers_june.json',
     reader : {
       type: 'json',
       root: 'rows'
