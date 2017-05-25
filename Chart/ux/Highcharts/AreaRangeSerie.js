@@ -5,7 +5,7 @@
  *
  */
 Ext.define('Chart.ux.Highcharts.AreaRangeSerie', {
-	extend : 'Chart.ux.Highcharts.RangeSerie',
-	alternateClassName: [ 'highcharts.arearange' ],
-	type : 'arearange'
+    extend: 'Chart.ux.Highcharts.RangeSerie',
+    alternateClassName: ['highcharts.arearange'],
+    type: 'arearange'
 });

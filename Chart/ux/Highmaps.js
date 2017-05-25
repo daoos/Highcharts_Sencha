@@ -1,5 +1,5 @@
 /**
- * @author 
+ * @author
  * Joe Kuan <kuan.joe@gmail.com>
  *
  * version 3.2.0
@@ -8,7 +8,7 @@
  *
  * Documentation last updated: 22 Sept 2014
  *
- * A much improved & ported from ExtJs 3 Highchart adapter. 
+ * A much improved & ported from ExtJs 3 Highchart adapter.
  *
  * - Supports the latest Highcharts
  * - Supports both Sencha ExtJs 4 and Touch 2
@@ -16,33 +16,33 @@
  * - Supports Highmaps
  *
  * In order to use this extension, users are expected to know how to use Highmaps and Sencha products (ExtJs 4 &amp; Touch 2).
- * 
+ *
  * # Highmaps Extension for Sencha
  *
  * The Highmaps extension has similar design and usage of Highcharts extension, the major difference is
- * that each series has it's own store definition instead. This is because the general 
- * concept of mapping software are structure in *layers*. The nature of data in each series (i.e. layer) 
- * can be different, hence having separates stores allows different data model for the layer which 
+ * that each series has it's own store definition instead. This is because the general
+ * concept of mapping software are structure in *layers*. The nature of data in each series (i.e. layer)
+ * can be different, hence having separates stores allows different data model for the layer which
  * gives greater flexibility.
 
  * When a map is constructed with more than one stores, the extension will perform asynchronous load
  * on all the stores. Once all the data returned from the stores, the extension will structure the data and
- * generate a Highmaps configuration to render a map. 
- * 
+ * generate a Highmaps configuration to render a map.
+ *
  * The original Highmaps package can be loaded as a standalone library or a module for Highcharts.
- * So far the Highmaps extension for Sencha ExtJs is developed and tested as a module for Highcharts, 
+ * So far the Highmaps extension for Sencha ExtJs is developed and tested as a module for Highcharts,
  * such that
- * the Highmaps class is extended from the Highcharts class. As a result, users can create both 
+ * the Highmaps class is extended from the Highcharts class. As a result, users can create both
  * charts and maps in the same application. The followings are the script tags loading Highmaps library:
  *
  *      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
  *      <script src="http://code.highcharts.com/highcharts.js"></script>
  *      <script src="http://code.highcharts.com/modules/map.js"></script>
- * 
+ *
  * # Configuring Highmaps Extension
  *
  * Suppose we have the following working Highmaps config (taken from the Basic map example) :
- *         
+ *
  *      $('#container').highcharts('Map', {
  *          title : {
  *              text : 'Population density by country (/km²)'
@@ -89,7 +89,7 @@
  * Append the series option to a higher level. Internally, the extension will
  * process this series option, create a new series array (with map data) and
  * inside into the chartConfig
- * 
+ *
  *     chartConfig: {
  *          title : {
  *              text : 'Population density by country (/km²)'
@@ -302,21 +302,21 @@
  * 
  */
 Ext.define("Chart.ux.Highmaps", {
-    extend : 'Chart.ux.Highcharts',
-    alias : ['widget.highmaps'],
+    extend: 'Chart.ux.Highcharts',
+    alias: ['widget.highmaps'],
     mixins: {
-         observable: 'Ext.util.Observable'
+        observable: 'Ext.util.Observable'
     },
     basicSerieCls: "Chart.ux.Highcharts.MapSerie",
 
     defaultSerieType: 'map',
 
-    initComponent: function() {
+    initComponent: function () {
         var me = this;
 
         Ext.applyIf(me, {
-	    ddDataReady: true
-	});
+            ddDataReady: true
+        });
 
         me.callParent(arguments);
     },
@@ -349,7 +349,7 @@ Ext.define("Chart.ux.Highmaps", {
     /***
      * @cfg series
      * An array of Highmaps series objects to be processed by the component.
-     * Depending on the series, store and fields can be configured along with 
+     * Depending on the series, store and fields can be configured along with
      * Highmap options. See the map series class documentation for details.
      * **Note**: Before the map is created, all the stores load methods are
      * called first.
@@ -378,12 +378,12 @@ Ext.define("Chart.ux.Highmaps", {
      *      }, {
      *          ....
      */
-    series:[],
+    series: [],
 
     /***
      * @cfg drilldown
      * Highmaps drilldown option. To use it with store, store option
-     * needs to be specified. The store is expected to return rows 
+     * needs to be specified. The store is expected to return rows
      * with fields: parentId, id, and path, whereas name, value and
      * color are optional.
      *
@@ -402,7 +402,7 @@ Ext.define("Chart.ux.Highmaps", {
      *      },{
      *          .....
      *      }]
-     * 
+     *
      * For using alternate field names, users can supply options:
      * parentIdField, idField, pathField, nameField, valueField and
      * colorField. The value in parentId field must match the drilldown field
@@ -430,34 +430,34 @@ Ext.define("Chart.ux.Highmaps", {
      * @param {Array} series An array of series configuration objects
      * @param {Boolean} append Append the series if true, otherwise replace all the existing chart series. Optional parameter, Defaults to true if not specified
      */
-    addSeries : function(series, append) {
+    addSeries: function (series, append) {
 
         append = (append === null || append === true) ? true : false;
 
-	// console.log("Map addSeries - append " + append);
+        // console.log("Map addSeries - append " + append);
 
-	var HC = Chart.ux.Highcharts;
+        var HC = Chart.ux.Highcharts;
         // Sencha Touch uses config to access properties
         var _this = (HC.sencha.product == 't') ? this.config : this;
 
-	// c is an array of series in object configuration
-	// n is an array of instantiated XXXSerie objects
+        // c is an array of series in object configuration
+        // n is an array of instantiated XXXSerie objects
 
         var n = new Array(), c = new Array(), cls, serieObject;
         // Add empty data to the serie or just leave it normal. Bug in HighCharts?
-        for(var i = 0; i < series.length; i++) {
+        for (var i = 0; i < series.length; i++) {
             // Clone Serie config for scope injection
             var serie = Ext.clone(series[i]);
-            if(!serie.serieCls) {
-                if(serie.type != null || _this.defaultSerieType != null) {
-                    cls = serie.type || (_this.chartConfig.chart && _this.chartConfig.chart.type) || 
-                         _this.defaultSerieType;
+            if (!serie.serieCls) {
+                if (serie.type != null || _this.defaultSerieType != null) {
+                    cls = serie.type || (_this.chartConfig.chart && _this.chartConfig.chart.type) ||
+                        _this.defaultSerieType;
                     cls = "highcharts." + cls;  // See alternateClassName
                 } else {
                     cls = _this.basicSerieCls;
                 }
 
-		this.log("Map addSeries: create class " + cls);
+                this.log("Map addSeries: create class " + cls);
 
                 serieObject = Ext.create(cls, serie);
             } else {
@@ -471,8 +471,8 @@ Ext.define("Chart.ux.Highmaps", {
         }
 
         // Show in chart
-        if(this.chart) {
-            if(!append) {
+        if (this.chart) {
+            if (!append) {
                 this.removeAllSeries();
                 _this.series = n;
                 _this.chartConfig.series = c;
@@ -481,91 +481,91 @@ Ext.define("Chart.ux.Highmaps", {
                 _this.series = _this.series ? _this.series.concat(n) : n;
             }
 
-	    _this.log("Add series into Highmaps");
-            for(var i = 0; i < c.length; i++) {
-		c[i].addSeriesAfterLoad(this);
+            _this.log("Add series into Highmaps");
+            for (var i = 0; i < c.length; i++) {
+                c[i].addSeriesAfterLoad(this);
             }
 
             // Set the data in the config.
         } else {
 
-	    // chart is not created yet. We have created a list of
-	    // Serie objects in advance. Then when Highmaps is created
-	    // we bind this Serie object to the Highmaps
-	    _this.series = n;
-/*
-	    _this.log("Add series into chartConfig");
-            if(append) {
-		console.log("AFTER");
-                _this.chartConfig.series = _this.chartConfig.series ? _this.chartConfig.series.concat(c) : c;
-                _this.series = _this.series ? _this.series.concat(n) : n;
-            } else {
-                _this.chartConfig.series = c;
-		console.log("AFTER1");
-		console.log(_this.chartConfig.series);
-                _this.series = n;
-            }
-	    console.log("AFTER2");
-	    console.log(_this.chartConfig.series);
-*/
+            // chart is not created yet. We have created a list of
+            // Serie objects in advance. Then when Highmaps is created
+            // we bind this Serie object to the Highmaps
+            _this.series = n;
+            /*
+             _this.log("Add series into chartConfig");
+             if(append) {
+             console.log("AFTER");
+             _this.chartConfig.series = _this.chartConfig.series ? _this.chartConfig.series.concat(c) : c;
+             _this.series = _this.series ? _this.series.concat(n) : n;
+             } else {
+             _this.chartConfig.series = c;
+             console.log("AFTER1");
+             console.log(_this.chartConfig.series);
+             _this.series = n;
+             }
+             console.log("AFTER2");
+             console.log(_this.chartConfig.series);
+             */
         }
     },
 
-    draw : function() {
+    draw: function () {
 
         // Sencha Touch uses config to access properties
-	var HC = Chart.ux.Highcharts;
+        var HC = Chart.ux.Highcharts;
         var _this = (HC.sencha.product == 't') ? this.config : this;
 
-	Ext.each(_this.series, function(s) {
-	    s.addSeriesAfterLoad(this);
-	}, this);
+        Ext.each(_this.series, function (s) {
+            s.addSeriesAfterLoad(this);
+        }, this);
 
-	// If drilldown is specified with a store, then also
-	// call the async load
-	var dd = _this.drilldown;
+        // If drilldown is specified with a store, then also
+        // call the async load
+        var dd = _this.drilldown;
 
-	if (dd && dd.store) {
-	    _this.ddDataReady = false;
-	    dd.store.load({
-		scope: _this,
-		callback: function(records) {
-		    // Initiate the getData method
-		    (!dd.parentIdField) && (dd.parentIdField = 'parentId');
-		    (!dd.idField) && (dd.idField = 'id');
-		    (!dd.pathField) && (dd.pathField = 'path');
-		    (!dd.valueField) && (dd.valueField = 'value');
-		    (!dd.nameField) && (dd.nameField = 'name');
+        if (dd && dd.store) {
+            _this.ddDataReady = false;
+            dd.store.load({
+                scope: _this,
+                callback: function (records) {
+                    // Initiate the getData method
+                    (!dd.parentIdField) && (dd.parentIdField = 'parentId');
+                    (!dd.idField) && (dd.idField = 'id');
+                    (!dd.pathField) && (dd.pathField = 'path');
+                    (!dd.valueField) && (dd.valueField = 'value');
+                    (!dd.nameField) && (dd.nameField = 'name');
 
-		    (!dd.getData) && (dd.getData = function(record) {
-			return {
-			    parentId: record.data[dd.parentIdField],
-			    id: record.data[dd.idField],
-			    path: record.data[dd.pathField],
-			    value: record.data[dd.valueField],
-			    name: record.data[dd.nameField]
-			};
-		    });
+                    (!dd.getData) && (dd.getData = function (record) {
+                        return {
+                            parentId: record.data[dd.parentIdField],
+                            id: record.data[dd.idField],
+                            path: record.data[dd.pathField],
+                            value: record.data[dd.valueField],
+                            name: record.data[dd.nameField]
+                        };
+                    });
 
-		    // Now we need to categorise the drilldown data
-		    // into groups with parent id in Highmaps config
-		    var groups = {};
-		    this.ddData = []; 
-		    Ext.each(records, function(rec) {
-			var data = dd.getData(rec);
-			(!groups[data.parentId]) && (groups[data.parentId] = []);
-			groups[data.parentId].push(data);
-		    });
+                    // Now we need to categorise the drilldown data
+                    // into groups with parent id in Highmaps config
+                    var groups = {};
+                    this.ddData = [];
+                    Ext.each(records, function (rec) {
+                        var data = dd.getData(rec);
+                        (!groups[data.parentId]) && (groups[data.parentId] = []);
+                        groups[data.parentId].push(data);
+                    });
 
-		    Ext.Object.each(groups, function(key, value) {
-			this.ddData.push({ id: key, data: value });
-		    }, this);
+                    Ext.Object.each(groups, function (key, value) {
+                        this.ddData.push({id: key, data: value});
+                    }, this);
 
-		    this.ddDataReady = true;
-		    this.drawMapWhenReady();
-		}
-	    });
-	}
+                    this.ddDataReady = true;
+                    this.drawMapWhenReady();
+                }
+            });
+        }
     },
 
     /***
@@ -575,53 +575,55 @@ Ext.define("Chart.ux.Highmaps", {
      * arrived. If so, the proceed creating Highmaps config and
      * render it
      */
-    drawMapWhenReady: function() {
+    drawMapWhenReady: function () {
 
-	this.log("Call drawMapWhenReady");
+        this.log("Call drawMapWhenReady");
         // Sencha Touch uses config to access properties
-	var HC = Chart.ux.Highcharts;
+        var HC = Chart.ux.Highcharts;
         var _this = (HC.sencha.product == 't') ? this.config : this;
-	var readyToDraw = true;
+        var readyToDraw = true;
 
-	Ext.each(_this.series, function(s) {
-	    if (!s.dataReady) {
-		readyToDraw = false;
-		return false;
-	    }
-	});
+        Ext.each(_this.series, function (s) {
+            if (!s.dataReady) {
+                readyToDraw = false;
+                return false;
+            }
+        });
 
-	// console.log(readyToDraw + " -- " + _this.ddDataReady);
-	if (!readyToDraw || !_this.ddDataReady) {
-	    return false;
-	}
+        // console.log(readyToDraw + " -- " + _this.ddDataReady);
+        if (!readyToDraw || !_this.ddDataReady) {
+            return false;
+        }
 
         this.log("call MAP draw - no. of series: " + _this.series.length);
 
-	// We need to clone the chartConfig because after the Highcharts.Map
-	// chart, it will change the data inside and we don't want that
-	var config = Ext.apply({}, _this.chartConfig);
+        // We need to clone the chartConfig because after the Highcharts.Map
+        // chart, it will change the data inside and we don't want that
+        var config = Ext.apply({}, _this.chartConfig);
 
-	!config.series && (config.series = []);
-	Ext.each(_this.series, function(s) {
-	    config.series.push(s.createMapSeries());
-	});
+        !config.series && (config.series = []);
+        Ext.each(_this.series, function (s) {
+            config.series.push(s.createMapSeries());
+        });
 
-	// Construct the drilldown data if specified
-	var drilldown = null;
-	if (_this.drilldown) {
-	    drilldown = Ext.applyIf({ store: null,
-				      series: _this.ddData },
-				    _this.drilldown);
-	}
-	drilldown && (config.drilldown = drilldown);
+        // Construct the drilldown data if specified
+        var drilldown = null;
+        if (_this.drilldown) {
+            drilldown = Ext.applyIf({
+                    store: null,
+                    series: _this.ddData
+                },
+                _this.drilldown);
+        }
+        drilldown && (config.drilldown = drilldown);
 
-	this.log(config.series);
-	this.log(config);
+        this.log(config.series);
+        this.log(config);
 
         if (this.chart && this.rendered) {
             if (this.resizable) {
 
-		this.unregisterHandlers();
+                this.unregisterHandlers();
 
                 // Redraw the highchart means recreate the highchart
                 // inside this component
@@ -630,24 +632,24 @@ Ext.define("Chart.ux.Highmaps", {
                 delete this.chart;
 
                 // Create a new chart
-		this.log(_this.chartConfig);
-		this.log("after Highcharts.Map (1)");
+                this.log(_this.chartConfig);
+                this.log("after Highcharts.Map (1)");
                 this.chart = new Highcharts.Map(config, this.afterChartRendered);
 
-		this.fireEvent('mapReady', this);
+                this.fireEvent('mapReady', this);
             }
 
         } else if (this.rendered) {
             // Create the chart from fresh
-	    this.log("call Highcharts.Map (2)");
-	    // console.log(_this.chartConfig);
+            this.log("call Highcharts.Map (2)");
+            // console.log(_this.chartConfig);
             this.chart = new Highcharts.Map(config, this.afterChartRendered);
-	    this.fireEvent('mapReady', this);
+            this.fireEvent('mapReady', this);
         }
     },
 
     // private
-    onLoad : function() {
+    onLoad: function () {
 
     },
 
@@ -657,37 +659,37 @@ Ext.define("Chart.ux.Highmaps", {
      * No store concept in the parent level
      */
 
-    registerHandler: function(hConf) {
-	this.handlers.push(hConf);
+    registerHandler: function (hConf) {
+        this.handlers.push(hConf);
     },
 
-    unregisterHandlers: function() {
-	Ext.each(this.handlers, function(hConf) {
-	    Ext.destroy(hConf.handler);
-	});
+    unregisterHandlers: function () {
+        Ext.each(this.handlers, function (hConf) {
+            Ext.destroy(hConf.handler);
+        });
     },
 
-    afterRender : function() {
+    afterRender: function () {
 
-	this.log("Map afterRender");
+        this.log("Map afterRender");
 
         // Sencha Touch uses config to access properties
-	var HC = Chart.ux.Highcharts;
+        var HC = Chart.ux.Highcharts;
         var _this = (HC.sencha.product == 't') ? this.config : this;
 
-         if(this.store)
-             this.bindStore(this.store, true);
+        if (this.store)
+            this.bindStore(this.store, true);
 
         this.bindComponent(true);
 
         // Ext.applyIf causes problem in 4.1.x but works fine with
         // 4.0.x
-	(!_this.chartConfig.chart) && (_this.chartConfig.chart = {});
+        (!_this.chartConfig.chart) && (_this.chartConfig.chart = {});
         Ext.apply(_this.chartConfig.chart, {
-            renderTo : (HC.sencha.product == 't') ? this.element.dom : this.el.dom
+            renderTo: (HC.sencha.product == 't') ? this.element.dom : this.el.dom
         });
 
-        if(_this.series) {
+        if (_this.series) {
             this.log("Call addSeries");
             this.addSeries(_this.series, false);
         } else
@@ -696,7 +698,7 @@ Ext.define("Chart.ux.Highmaps", {
         this.initEvents();
         // Make a delayed call to update the chart.
 
-	// This resize event will be triggered and call the draw method
+        // This resize event will be triggered and call the draw method
         // this.draw();
     },
 
@@ -704,8 +706,8 @@ Ext.define("Chart.ux.Highmaps", {
      * @method refresh
      * @hide
      */
-    refresh : function() {
-		
+    refresh: function () {
+
     },
 
     /***
@@ -728,24 +730,24 @@ Ext.define("Chart.ux.Highmaps", {
      * @hide
      */
 
-    destroy : function() {
-	this.unregisterHandlers();
+    destroy: function () {
+        this.unregisterHandlers();
         this.callParent(arguments);
     },
 
     constructor: function (config) {
-         this.mixins.observable.constructor.call(this, config);
+        this.mixins.observable.constructor.call(this, config);
 
-         this.addEvents(
-	     /**
-              * @event mapReady
-              * Fires when all load events from the stores are finished
-	      * and ready to render the map
-	      */
-	     'mapReady'
-         );
+        this.addEvents(
+            /**
+             * @event mapReady
+             * Fires when all load events from the stores are finished
+             * and ready to render the map
+             */
+            'mapReady'
+        );
 
-	this.callParent(arguments);
+        this.callParent(arguments);
     }
 
 });

@@ -3,7 +3,7 @@
  *
  * See {@link Chart.ux.Highcharts.Serie} class for more info
  *
- * The following is the config example converted from the original 
+ * The following is the config example converted from the original
  * [Highcharts waterfall demo][1]
  * [1]: http://www.highcharts.com/demo/waterfall
  *
@@ -21,7 +21,7 @@
  *     }]
  *
  * The Json data returning from the server side should look like as follows:
- * 
+ *
  *     {"root":[{ "category":"Start","value":120000 }, 
  *              { "category":"Product Revenue","value":569000 },
  *              { "category":"Service Revenue","value":231000 },
@@ -33,34 +33,34 @@
  *
  */
 Ext.define('Chart.ux.Highcharts.WaterfallSerie', {
-	  extend : 'Chart.ux.Highcharts.Serie',
-	  alternateClassName: [ 'highcharts.waterfall' ],
-	  type : 'waterfall',
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.waterfall'],
+    type: 'waterfall',
 
     /**
      * @cfg {String} sumTypeField
-     * Column value is whether derived from precious values. 
+     * Column value is whether derived from precious values.
      * Possible values: 'intermediate', 'final' or null (expect dataIndex or yField contains value)
      */
     sumTypeField: null,
 
-    constructor: function(config) {
+    constructor: function (config) {
 
         this.callParent(arguments);
         this.valField = this.yField || this.dataIndex;
         this.nameField = this.categorieField || this.xField;
     },
 
-    getData: function(record, index) {
+    getData: function (record, index) {
 
         var dataObj = {
-            y: record.data[ this.valField ],
-            name: record.data[ this.nameField ]
+            y: record.data[this.valField],
+            name: record.data[this.nameField]
         };
 
         // Only define color if there is value, otherwise it column
         // won't take any global color definitiion
-        record.data [ this.colorField ] && (dataObj.color = record.data[this.colorField]);
+        record.data [this.colorField] && (dataObj.color = record.data[this.colorField]);
 
         if (this.sumTypeField) {
             if (record.data[this.sumTypeField] == "intermediate") {

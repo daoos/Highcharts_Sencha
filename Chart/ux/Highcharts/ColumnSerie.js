@@ -4,7 +4,7 @@
  * See {@link Chart.ux.Highcharts.Serie} class for more info
  */
 Ext.define('Chart.ux.Highcharts.ColumnSerie', {
-	extend : 'Chart.ux.Highcharts.Serie',
-	alternateClassName: [ 'highcharts.column' ],
-	type : 'column'
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.column'],
+    type: 'column'
 });

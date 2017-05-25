@@ -1,1 +1,29 @@
-{"rows":[{"vendor":"MSIE","usage":54.07,"color":"#2f7ed8"},{"vendor":"Firefox","usage":21.16,"color":"#0d233a"},{"vendor":"Chrome","usage":11.74,"color":"#8bbc21"},{"vendor":"Safari","usage":6.94,"color":"#910000"},{"vendor":"Opera","usage":2.14,"color":"#1aadce"}]}
+{
+  "rows": [
+    {
+      "vendor": "MSIE",
+      "usage": 54.07,
+      "color": "#2f7ed8"
+    },
+    {
+      "vendor": "Firefox",
+      "usage": 21.16,
+      "color": "#0d233a"
+    },
+    {
+      "vendor": "Chrome",
+      "usage": 11.74,
+      "color": "#8bbc21"
+    },
+    {
+      "vendor": "Safari",
+      "usage": 6.94,
+      "color": "#910000"
+    },
+    {
+      "vendor": "Opera",
+      "usage": 2.14,
+      "color": "#1aadce"
+    }
+  ]
+}

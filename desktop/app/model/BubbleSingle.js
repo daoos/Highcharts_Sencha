@@ -1,5 +1,5 @@
 Ext.define('Highcharts.model.BubbleSingle', {
-    extend : 'Ext.data.Model',
+    extend: 'Ext.data.Model',
     fields: [{
         name: 'x',
         type: 'integer'

@@ -1,14 +1,14 @@
 Ext.define('Highcharts.store.IQ', {
-  extend : 'Ext.data.Store',
-  autoLoad : false,
-  model: 'Highcharts.model.IQ',
-  proxy : {
-    type: 'ajax',
-    url: './data/iq.json',
-    reader : {
-      type: 'json',
-      root: 'rows'
-    }
-  },
-  storeId: 'IQ'
+    extend: 'Ext.data.Store',
+    autoLoad: false,
+    model: 'Highcharts.model.IQ',
+    proxy: {
+        type: 'ajax',
+        url: './data/iq.json',
+        reader: {
+            type: 'json',
+            root: 'rows'
+        }
+    },
+    storeId: 'IQ'
 });

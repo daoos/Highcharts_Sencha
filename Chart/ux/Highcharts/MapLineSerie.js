@@ -3,7 +3,7 @@
  * The data store should return name, path, and optional color fields.
  */
 Ext.define('Chart.ux.Highcharts.MapLineSerie', {
-    extend : 'Chart.ux.Highcharts.MapSerie',
-    alternateClassName: [ 'highcharts.mapline' ],
-    type : 'mapline'
+    extend: 'Chart.ux.Highcharts.MapSerie',
+    alternateClassName: ['highcharts.mapline'],
+    type: 'mapline'
 });

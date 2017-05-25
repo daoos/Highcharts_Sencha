@@ -4,8 +4,8 @@
  * total values of all the records
  *
  * ## Data point per record
- * Pie series uses two options for mapping category name and data fields: 
- * *categoryField* and *dataField*, (This is historical reason instead of 
+ * Pie series uses two options for mapping category name and data fields:
+ * *categoryField* and *dataField*, (This is historical reason instead of
  * using *xField* and *dataIndex*). Suppose we have data model in the following format:
  *
  * <table>
@@ -17,7 +17,7 @@
  *    </tbody>
  * </table>
  * Then we can define the series data as:
- * 
+ *
  *     series: [{
  *        type: 'pie',
  *        categoryField: 'productName',
@@ -26,7 +26,7 @@
  *
  * # Data point as total value of all the records
  * Instead of mapping *dataField* and *categorieField* fields to the store record for each
- * pie data point, this approach uses the total value of a category as a data point. 
+ * pie data point, this approach uses the total value of a category as a data point.
  * E.g. we have a class of pupils with a set of subject scores
  * <table>
  *    <tbody>
@@ -48,7 +48,7 @@
  *                { "english": 67, "math": 56, "science": 69 },
  *                { "english": 44, "math": 50, "science": 39 },
  *                .....                                         ]
- *     } 
+ *     }
  * and the data model for the store is defined as follows:
  *     Ext.define('ExamResults', {
  *        extend: 'Ext.data.Model',
@@ -58,9 +58,9 @@
  *              {name: 'science',  type: 'int'}
  *          ]
  *     });
- *  
+ *
  * # Multiple Pie Series (Donut chart)
- * A donut chart is really two pie series which a second pie series lay outside of the 
+ * A donut chart is really two pie series which a second pie series lay outside of the
  * first series. The second series is subcategory data of the first series.
  * Suppose we want to plot a more detail chart with the breakdown of sold items into regions:
  * <table>
@@ -71,7 +71,7 @@
  *       <tr><td>Product C</td><td>21,432,330</td><td>2,427,431</td><td>6,443,234</td><td>12,561,665</td></tr>
  *    </tbody>
  * </table>
- * The data model for the donut chart store should be refined with fields: productName, 
+ * The data model for the donut chart store should be refined with fields: productName,
  * sold and region. The rows returning from the store should look like:
  * <table>
  *    <tbody>
@@ -99,19 +99,19 @@
  *        innerSize: '60%',
  *        size: '75%'
  *     }]
- * The *totalDataField* informs the first series to take the sum of *dataField* (sold) 
- * on entries with the same *categoryField* value, whereas the second series displays 
- * a section on each region (i.e. each record). The *innerSize* is just the Highcharts 
+ * The *totalDataField* informs the first series to take the sum of *dataField* (sold)
+ * on entries with the same *categoryField* value, whereas the second series displays
+ * a section on each region (i.e. each record). The *innerSize* is just the Highcharts
  * option to make the outer pie series appear as ring form.
  *
- * If you want to have a fix set of colours in the outer ring along each slice, then 
- * you can create an extra field in your store for the color code and use the 
+ * If you want to have a fix set of colours in the outer ring along each slice, then
+ * you can create an extra field in your store for the color code and use the
  * *colorField* option to map the field.
  */
 Ext.define('Chart.ux.Highcharts.PieSerie', {
-    extend : 'Chart.ux.Highcharts.Serie',
-    alternateClassName: [ 'highcharts.pie' ],
-    type : 'pie',
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.pie'],
+    type: 'pie',
 
     /***
      * @cfg xField
@@ -130,9 +130,9 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
 
     /**
      * @cfg {String} categorieField
-     * the field name mapping to store records for pie category data 
+     * the field name mapping to store records for pie category data
      */
-    categorieField : null,
+    categorieField: null,
 
     /**
      * @cfg {Boolean} totalDataField
@@ -140,65 +140,65 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
      * getData method to take the total sum of dataField as the data point value
      * for those records with the same matching string in the categorieField.
      */
-    totalDataField : false,
+    totalDataField: false,
 
     /**
      * @cfg {String} dataField
-     * the field name mapping to store records for value data 
+     * the field name mapping to store records for value data
      */
-    dataField : null,
+    dataField: null,
 
     /***
      * @cfg {Boolean} useTotals
      * use the total value of a categorie of all the records as a data point
      */
-    useTotals : false,
+    useTotals: false,
 
     /***
      * @cfg {Array} columns
      * a list of category names that match the record fields
      */
-    columns : [],
+    columns: [],
 
-    constructor : function(config) {
+    constructor: function (config) {
         this.callParent(arguments);
-        if(this.useTotals) {
+        if (this.useTotals) {
             this.columnData = {};
             var length = this.columns.length;
-            for(var i = 0; i < length; i++) {
+            for (var i = 0; i < length; i++) {
                 this.columnData[this.columns[i]] = 100 / length;
             }
         }
     },
 
     //private
-    addData : function(record) {
-        for(var i = 0; i < this.columns.length; i++) {
+    addData: function (record) {
+        for (var i = 0; i < this.columns.length; i++) {
             var c = this.columns[i];
             this.columnData[c] = this.columnData[c] + record.data[c];
         }
     },
 
     //private
-    update : function(record) {
-        for(var i = 0; i < this.columns.length; i++) {
+    update: function (record) {
+        for (var i = 0; i < this.columns.length; i++) {
             var c = this.columns[i];
-            if(record.modified[c])
+            if (record.modified[c])
                 this.columnData[c] = this.columnData[c] + record.data[c] - record.modified[c];
         }
     },
 
     //private
-    removeData : function(record, index) {
-        for(var i = 0; i < this.columns.length; i++) {
+    removeData: function (record, index) {
+        for (var i = 0; i < this.columns.length; i++) {
             var c = this.columns[i];
             this.columnData[c] = this.columnData[c] - record.data[c];
         }
     },
 
     //private
-    clear : function() {
-        for(var i = 0; i < this.columns.length; i++) {
+    clear: function () {
+        for (var i = 0; i < this.columns.length; i++) {
             var c = this.columns[i];
             this.columnData[c] = 0;
         }
@@ -208,21 +208,21 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
      * As the implementation of pie series is quite different to other series types,
      * it is not recommended to override this method
      */
-    getData : function(record, seriesData) {
+    getData: function (record, seriesData) {
 
         var _this = (Chart.ux.Highcharts.sencha.product == 't') ? this.config : this;
 
         // Summed up the category among the series data
-        if(this.totalDataField) {
+        if (this.totalDataField) {
             var found = null;
-            for(var i = 0; i < seriesData.length; i++) {
-                if(seriesData[i].name == record.data[_this.categorieField]) {
+            for (var i = 0; i < seriesData.length; i++) {
+                if (seriesData[i].name == record.data[_this.categorieField]) {
                     found = i;
                     seriesData[i].y += record.data[_this.dataField];
                     break;
                 }
             }
-            if(found === null) {
+            if (found === null) {
                 if (this.colorField && record.data[_this.colorField]) {
                     seriesData.push({
                         name: record.data[_this.categorieField],
@@ -244,7 +244,7 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
             return seriesData[i];
         }
 
-        if(this.useTotals) {
+        if (this.useTotals) {
             this.addData(record);
             return [];
         }
@@ -267,9 +267,9 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
         }
     },
 
-    getTotals : function() {
+    getTotals: function () {
         var a = new Array();
-        for(var i = 0; i < this.columns.length; i++) {
+        for (var i = 0; i < this.columns.length; i++) {
             var c = this.columns[i];
             a.push([c, this.columnData[c]]);
         }
@@ -281,14 +281,14 @@ Ext.define('Chart.ux.Highcharts.PieSerie', {
      *  Build the initial data set if there are data already
      *  inside the store.
      */
-    buildInitData:function(items, data) {
+    buildInitData: function (items, data) {
         // Summed up the category among the series data
         var record;
         var data = this.config.data = [];
         if (this.config.totalDataField) {
             for (var x = 0; x < items.length; x++) {
                 record = items[x];
-                this.getData(record,data);
+                this.getData(record, data);
             }
         } else {
             for (var x = 0; x < items.length; x++) {

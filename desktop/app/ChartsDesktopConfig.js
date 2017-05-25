@@ -1,89 +1,89 @@
 var speedColor = '#474337';
 var rpmColor = '#BBB59C';
-var kmhArr = [ 0, 20, 40, 60, 90, 120, 150, 180, 210 ];
+var kmhArr = [0, 20, 40, 60, 90, 120, 150, 180, 210];
 var hiRef = '#A41E09';
 var dialColor = '#FA3421';
 var currentRpm = 0;
 
-Ext.define ("Highcharts.ChartsDesktopConfig", {
+Ext.define("Highcharts.ChartsDesktopConfig", {
     singleton: true,
-    config : {
-        spline : {
-            series : [{
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+    config: {
+        spline: {
+            series: [{
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                dataIndex : 'today',
-                name : 'Today'
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x',
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x',
                     type: 'spline'
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
-                    x : -20 //center
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : '',
-                    href : 'www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: '',
+                    href: 'www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -92,85 +92,85 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /****************************************************
          *  spline chart with no animation on
          ****************************************************/
-        splineNoAnim : {
-            series : [{
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        splineNoAnim: {
+            series: [{
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                getData: function(record, index) {
+                getData: function (record, index) {
                     return record.data.today;
                 },
-                name : 'Today'
+                name: 'Today'
             }],
             animation: false,
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x',
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x',
                     defaultSeriesType: 'spline'
                 },
-                title : {
-                    text : 'No Animation for initial and update, ignore Highcharts animation configuration',
-                    x : -20 //center
+                title: {
+                    text: 'No Animation for initial and update, ignore Highcharts animation configuration',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -179,84 +179,84 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - line shift with X-axis category data
          *********************************************/
-        splineCatShift : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        splineCatShift: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today'
             }],
             lineShift: true,
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Click Reload Data to see the lines are being shift, xAxis categories data.',
-                    x : -20 //center
+                title: {
+                    text: 'Click Reload Data to see the lines are being shift, xAxis categories data.',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -265,78 +265,78 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - line shift with X-axis numeric data
          *********************************************/
-        splineNumShift : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday',
-                xField : 'time'
+        splineNumShift: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday',
+                xField: 'time'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today',
-                xField : 'time'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today',
+                xField: 'time'
             }],
             lineShift: true,
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Click Reload Data to see the lines are being shift, xAxis numeric data',
-                    x : -20 //center
+                title: {
+                    text: 'Click Reload Data to see the lines are being shift, xAxis numeric data',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
+                xAxis: [{
                     type: 'datetime',
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -345,80 +345,80 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /***
          * Test redraw hidden series
          */
-        drawHiddenSeries : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday',
-                xField : 'time'
+        drawHiddenSeries: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday',
+                xField: 'time'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today',
-                xField : 'time',
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today',
+                xField: 'time',
                 visible: false
             }],
             lineShift: true,
-            height : 500,
-            width : 700,
+            height: 500,
+            width: 700,
             listeners: {
-                afterChartRendered: function() {
+                afterChartRendered: function () {
                     // Test draw method on the hidden series
-                    var task = new Ext.util.DelayedTask(function(){
+                    var task = new Ext.util.DelayedTask(function () {
                         Ext.getCmp('main_chart').draw();
                     });
                     task.delay(2000);
                 }
             },
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : 'Test draw method on hidden series',
-                    x : -20 //center
+                title: {
+                    text: 'Test draw method on hidden series',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'draw method is called every 2 seconds',
-                    x : -20
+                subtitle: {
+                    text: 'draw method is called every 2 seconds',
+                    x: -20
                 },
-                xAxis : {
+                xAxis: {
                     type: 'datetime',
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 },
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -427,14 +427,14 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - ExtJs Popup menu
          *********************************************/
-        splinePopup : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday',
+        splinePopup: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday',
                 cursor: 'pointer',
                 events: {
-                    click: function(evt) {
+                    click: function (evt) {
                         var x = evt.pageX || evt.x;
                         var y = evt.pageY || evt.y;
                         Demo.menu && (Demo.menu.destroy()) && (Demo.menu = null);
@@ -445,9 +445,9 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                             items: [{
                                 text: 'Plot Average',
                                 scope: this,
-                                handler: function() {
+                                handler: function () {
                                     var average = 0;
-                                    Ext.each(this.points, function(point) {
+                                    Ext.each(this.points, function (point) {
                                         average += point.y;
                                     });
                                     average = average / this.points.length;
@@ -464,15 +464,15 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                                         }
                                     });
                                 }
-                            },{
+                            }, {
                                 text: 'Remove Average Plot',
                                 scope: this,
-                                handler: function() {
+                                handler: function () {
                                     this.yAxis.removePlotLine('average');
                                 }
                             }, '-', {
                                 text: 'Cancel',
-                                handler: function() {
+                                handler: function () {
                                     Demo.menu.close();
                                 }
                             }]
@@ -481,16 +481,16 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         Demo.menu.showAt(x + 5, y + 5);
                     }
                 },
-                xField : 'time'
+                xField: 'time'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today',
-                xField : 'time',
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today',
+                xField: 'time',
                 point: {
                     cursor: 'pointer',
                     events: {
-                        click: function(evt) {
+                        click: function (evt) {
                             var x = evt.pageX || evt.x;
                             var y = evt.pageY || evt.y;
 
@@ -502,10 +502,10 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                                 items: [{
                                     text: 'Compare Temperature',
                                     scope: this,
-                                    handler: function() {
+                                    handler: function () {
                                         // compare the temperation with another series
                                         var temp = this.y, time = this.x, diff = 0;
-                                        Ext.each(this.series.chart.series[0].points, function(point) {
+                                        Ext.each(this.series.chart.series[0].points, function (point) {
                                             if (point.x == time) {
                                                 diff = point.y - temp;
                                                 return false;
@@ -521,7 +521,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                                     }
                                 }, '-', {
                                     text: 'Cancel',
-                                    handler: function() {
+                                    handler: function () {
                                         Demo.menu.close();
                                     }
                                 }]
@@ -531,65 +531,65 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 }
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Left click on Yesterday series for series menu and left click on Today series for point menu',
-                    x : -20 //center
+                title: {
+                    text: 'Left click on Yesterday series for series menu and left click on Today series for point menu',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
+                xAxis: [{
                     type: 'datetime',
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -598,91 +598,91 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - afterChartRendered callback
          *********************************************/
-        splineAfterRenderedCallback : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday',
-                xField : 'time'
+        splineAfterRenderedCallback: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday',
+                xField: 'time'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today',
-                xField : 'time'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today',
+                xField: 'time'
             }],
             listeners: {
-                afterChartRendered: function(chart) {
+                afterChartRendered: function (chart) {
                     var size = this.getSize();
                     var temp = 0;
-                    Ext.each(chart.series[0].data, function(data) {
+                    Ext.each(chart.series[0].data, function (data) {
                         temp += data.y;
                     });
                     temp = temp / chart.series[0].data.length;
 
                     Ext.Msg.alert('Info', 'This message box is called after the chart is rendered. ' +
-                                  'Extension width:' + size.width + ', height: ' + size.height + '. ' +
-                                  'Series (' + chart.series[0].name + ') Average: ' + temp);
+                        'Extension width:' + size.width + ', height: ' + size.height + '. ' +
+                        'Series (' + chart.series[0].name + ') Average: ' + temp);
                 }
             },
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'A message box is displayed after the chart is rendered and shows the average value',
-                    x : -20 //center
+                title: {
+                    text: 'A message box is displayed after the chart is rendered and shows the average value',
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
+                xAxis: [{
                     type: 'datetime',
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -691,93 +691,93 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - addSeries
          *********************************************/
-        splineAddSeries : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        splineAddSeries: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            xField : 'time',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x',
+            xField: 'time',
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x',
                     events: {
-                        load: function(chart) {
+                        load: function (chart) {
                             Ext.getCmp('addSeries').setDisabled(false);
                         }
                     }
                 },
-                title : {
-                    text : "Click on the 'Add Series' button to add a new series without store data",
-                    x : -20 //center
+                title: {
+                    text: "Click on the 'Add Series' button to add a new series without store data",
+                    x: -20 //center
                 },
                 plotOptions: {
                     series: {
                         cursor: 'pointer'
                     }
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -786,36 +786,36 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /****************************************************************************
          *    Spline - No Store binding
          ****************************************************************************/
-        splineNoStore : {
-            height : 500,
-            width : 700,
+        splineNoStore: {
+            height: 500,
+            width: 700,
             initAnimAfterLoad: false,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
                     showAxes: true,
                     events: {
-                        load: function(chart) {
+                        load: function (chart) {
                             Ext.getCmp('addSeries').setDisabled(false);
                         }
                     }
                 },
-                title : {
-                    text : "Extension running without store - only use addSeries method to display series data",
-                    x : -20 //center
+                title: {
+                    text: "Extension running without store - only use addSeries method to display series data",
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : "Click 'Add Series' to display series",
-                    x : -20
+                subtitle: {
+                    text: "Click 'Add Series' to display series",
+                    x: -20
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -824,38 +824,38 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /****************************************************************************
          *    Spline - Irregular data of 3 series with random number of data points
          ****************************************************************************/
-        splineIrregular : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'series1',
-                name : 'series A'
+        splineIrregular: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'series1',
+                name: 'series A'
             }, {
-                type : 'spline',
-                dataIndex : 'series2',
-                name : 'series B'
+                type: 'spline',
+                dataIndex: 'series2',
+                name: 'series B'
             }, {
-                type : 'spline',
-                dataIndex : 'series3',
-                name : 'series C'
+                type: 'spline',
+                dataIndex: 'series3',
+                name: 'series C'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Irregular data of 3 series with random number of data points",
-                    x : -20 //center
+                title: {
+                    text: "Irregular data of 3 series with random number of data points",
+                    x: -20 //center
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -864,88 +864,88 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - null data, discontinued graph
          *********************************************/
-        splineNullData : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        splineNullData: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            xField : 'time',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            xField: 'time',
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : "Discontinued graph - data contain null values.",
-                    x : -20 //center
+                title: {
+                    text: "Discontinued graph - data contain null values.",
+                    x: -20 //center
                 },
                 plotOptions: {
                     series: {
                         cursor: 'pointer'
                     }
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -954,28 +954,28 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*********************************************
          *    Spline - null data, discontinued graph
          *********************************************/
-        splineConnectNulls : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        splineConnectNulls: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'spline',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'spline',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            xField : 'time',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            xField: 'time',
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : "Discontinued graph - connect null values.",
-                    x : -20 //center
+                title: {
+                    text: "Discontinued graph - connect null values.",
+                    x: -20 //center
                 },
                 plotOptions: {
                     series: {
@@ -983,60 +983,60 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         connectNulls: true
                     }
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -1045,95 +1045,95 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*************************************************
          * Column config
          *************************************************/
-        column3d : {
-            series : [{
-                type : 'column',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        column3d: {
+            series: [{
+                type: 'column',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'column',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'column',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x',
-		    options3d: {
-			enabled: true,
-			alpha: 15,
-			beta: 15,
-			depth: 50
-		    },
-		    type: 'column'
-                },
-		plotOptions: {
-		    column: {
-			depth: 25
-		    }
-		},
-                title : {
-                    text : 'Multi Series 3D column chart',
-                    x : -20 //center
-                },
-                subtitle : {
-                    text : "Click 'Reload Data' to see the 3D columns animate",
-                    x : -20
-                },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x',
+                    options3d: {
+                        enabled: true,
+                        alpha: 15,
+                        beta: 15,
+                        depth: 50
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    type: 'column'
+                },
+                plotOptions: {
+                    column: {
+                        depth: 25
+                    }
+                },
+                title: {
+                    text: 'Multi Series 3D column chart',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: "Click 'Reload Data' to see the 3D columns animate",
+                    x: -20
+                },
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
+                    },
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -1141,83 +1141,83 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*************************************************
          * Column config
          *************************************************/
-        column : {
-            series : [{
-                type : 'column',
-                dataIndex : 'yesterday',
-                name : 'Yesterday'
+        column: {
+            series: [{
+                type: 'column',
+                dataIndex: 'yesterday',
+                name: 'Yesterday'
             }, {
-                type : 'column',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'column',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
-                    x : -20 //center
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     },
-                    plotLines : [{
-                        value : 0,
-                        width : 1,
-                        color : '#808080'
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
                     }]
                 },
-                tooltip : {
-                    formatter : function () {
-                        var dt = Ext.Date.parse (parseInt (this.x) / 1000, "U");
-                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format (dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
+                tooltip: {
+                    formatter: function () {
+                        var dt = Ext.Date.parse(parseInt(this.x) / 1000, "U");
+                        return 'At <b>' + this.series.name + '</b>' + Ext.Date.format(dt, "H:i:s") + ',<br/>temperature is : ' + this.y;
                     }
 
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -1226,34 +1226,34 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /*************************************************************
          * Column drill down config with button click
          *************************************************************/
-        columnDrillDown : {
-            series : [{
-                type : 'column',
-                dataIndex : 'usage',
+        columnDrillDown: {
+            series: [{
+                type: 'column',
+                dataIndex: 'usage',
                 colorField: 'color',
                 // Set this to white, so won't interfere with the series
                 // index color
                 name: 'Browser brands'
             }],
             xField: 'vendor',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Column drill down demo. Click a column to drill down further (issues a load event)',
-                    x : -20 //center
+                title: {
+                    text: 'Column drill down demo. Click a column to drill down further (issues a load event)',
+                    x: -20 //center
                 },
-                yAxis : {
-                    title : {
-                        text : 'Total percent market share'
+                yAxis: {
+                    title: {
+                        text: 'Total percent market share'
                     }
                 },
-                legend: { enabled: false },
+                legend: {enabled: false},
                 plotOptions: {
                     column: {
                         cursor: 'pointer',
@@ -1263,13 +1263,13 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                             style: {
                                 fontWeight: 'bold'
                             },
-                            formatter: function() {
-                                return this.y +'%';
+                            formatter: function () {
+                                return this.y + '%';
                             }
                         },
                         point: {
                             events: {
-                                click: function(evt) {
+                                click: function (evt) {
                                     var selectPoint = this;
                                     var store = Ext.getCmp('main_chart').store;
                                     var extraParams = store.getProxy().extraParams;
@@ -1292,286 +1292,286 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         }
                     }
                 },
-                tooltip : {
-                    formatter : function () {
+                tooltip: {
+                    formatter: function () {
                         var point = this.point,
-                        s = this.x +':<b>'+ this.y +'% market share</b><br/>';
+                            s = this.x + ':<b>' + this.y + '% market share</b><br/>';
                         if (point.drilldown) {
-                            s += 'Click to view '+ point.category +' versions';
+                            s += 'Click to view ' + point.category + ' versions';
                         } else {
                             s += 'Click to return to browser brands';
                         }
                         return s;
                     }
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-        pie3d : {
-            series : [{
-                type : 'pie',
-                categorieField : 'time',
-                dataField : 'temperature',
-                name : 'Temperature'
+        pie3d: {
+            series: [{
+                type: 'pie',
+                categorieField: 'time',
+                dataField: 'temperature',
+                name: 'Temperature'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-		    type: 'pie',
-		    options3d: {
-			enabled: true,
-			alpha: 45,
-			beta: 0
-		    }
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    type: 'pie',
+                    options3d: {
+                        enabled: true,
+                        alpha: 45,
+                        beta: 0
+                    }
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
-                    x : -20 //center
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
                 plotOptions: {
                     pie: {
-			depth: 35,
+                        depth: 35,
                         allowPointSelect: true
                     }
                 },
-                tooltip : {
-                    formatter : function () {
+                tooltip: {
+                    formatter: function () {
                         return '<b>' + this.point.name + '</b>' + ',temperature is : ' + this.y;
                     }
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-        pie : {
-            series : [{
-                type : 'pie',
-                categorieField : 'time',
-                dataField : 'temperature',
-                name : 'Temperature'
+        pie: {
+            series: [{
+                type: 'pie',
+                categorieField: 'time',
+                dataField: 'temperature',
+                name: 'Temperature'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
-                    x : -20 //center
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Random Value',
-                    x : -20
+                subtitle: {
+                    text: 'Random Value',
+                    x: -20
                 },
                 plotOptions: {
                     pie: {
                         allowPointSelect: true
                     }
                 },
-                tooltip : {
-                    formatter : function () {
+                tooltip: {
+                    formatter: function () {
                         return '<b>' + this.point.name + '</b>' + ',temperature is : ' + this.y;
                     }
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-        scatter3d : {
-            series : [{
-                type : 'scatter',
+        scatter3d: {
+            series: [{
+                type: 'scatter',
                 xField: 'x',
-		yField: 'y',
-		zField: 'z'
+                yField: 'y',
+                zField: 'z'
             }],
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginTop : 130,
-                    zoomType : 'x',
-		    options3d: {
-			enabled: true,
-			alpha: 20,
-			beta: 30,
-			depth: 200,
-			viewDistance: 10,
-			frame: {
-			    bottom: {
-				size: 1,
-				color: 'rgba(0,0,0,0.05)'
-			    }
-			}
-		    }
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginTop: 130,
+                    zoomType: 'x',
+                    options3d: {
+                        enabled: true,
+                        alpha: 20,
+                        beta: 30,
+                        depth: 200,
+                        viewDistance: 10,
+                        frame: {
+                            bottom: {
+                                size: 1,
+                                color: 'rgba(0,0,0,0.05)'
+                            }
+                        }
+                    }
                 },
-                title : {
-                    text : '3D Scatter Chart with (x, y, z) coordinates'
+                title: {
+                    text: '3D Scatter Chart with (x, y, z) coordinates'
                 },
-                subtitle : {
-                    text : "Click 'Reload Data' to see the data points animate in 3D space"
+                subtitle: {
+                    text: "Click 'Reload Data' to see the data points animate in 3D space"
                 },
-                yAxis : {
-		    min: 0,
-		    max: 10
-		},
-		xAxis: {
-		    min: 0,
-		    max: 10,
-		    gridLineWidth: 1
-		},
-		zAxis: {
-		    min: 0,
-		    max: 10,
-		    gridLineWidth: 1
-		},
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                yAxis: {
+                    min: 0,
+                    max: 10
+                },
+                xAxis: {
+                    min: 0,
+                    max: 10,
+                    gridLineWidth: 1
+                },
+                zAxis: {
+                    min: 0,
+                    max: 10,
+                    gridLineWidth: 1
+                },
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-        scatter : {
-            series : [{
-                type : 'scatter',
-                lineWidth : 1,
+        scatter: {
+            series: [{
+                type: 'scatter',
+                lineWidth: 1,
                 xField: 'rebars_x',
                 yField: 'rebars_y'
             }, {
-                type : 'scatter',
-                lineWidth : 0,
+                type: 'scatter',
+                lineWidth: 0,
                 xField: 'points_x',
                 yField: 'points_y'
             }],
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
-                    x : -20 //center
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Example For ExtJs ' + Ext.versions.core.version,
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Scatter Values',
-                    x : -20
+                subtitle: {
+                    text: 'Scatter Values',
+                    x: -20
                 },
-                xAxis : [{
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                xAxis: [{
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 }],
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-        donut : {
-            series : [{
-                type : 'pie',
-                categorieField : 'vendor',
+        donut: {
+            series: [{
+                type: 'pie',
+                categorieField: 'vendor',
                 dataField: 'usage',
                 name: 'Browsers',
                 size: '60%',
                 totalDataField: true,
                 colorField: 'color',
                 dataLabels: {
-                    formatter: function() {
+                    formatter: function () {
                         return this.y > 5 ? this.point.name : null;
                     },
                     color: 'white',
                     distance: -30
                 }
             }, {
-                type : 'pie',
-                categorieField : 'version',
+                type: 'pie',
+                categorieField: 'version',
                 dataField: 'usage',
                 colorField: 'color',
                 name: 'Versions',
                 innerSize: '60%',
                 dataLabels: {
-                    formatter: function() {
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                    formatter: function () {
+                        return this.y > 1 ? '<b>' + this.point.name + ':</b> ' + this.y + '%' : null;
                     }
                 }
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
                 plotOptions: {
                     pie: {
@@ -1579,48 +1579,47 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         center: ['50%', '50%']
                     }
                 },
-                title : {
-                    text : 'Highcharts (' + Highcharts.version + ') Donut Pie for ExtJs ' + Ext.versions.core.version
+                title: {
+                    text: 'Highcharts (' + Highcharts.version + ') Donut Pie for ExtJs ' + Ext.versions.core.version
                 },
-                subtitle : {
-                    text : 'Browser market share, April, 2011'
+                subtitle: {
+                    text: 'Browser market share, April, 2011'
                 },
-                tooltip : {
-                    formatter : function () {
-				                return '<b>'+ this.point.name +'</b>: '+ this.y +' %';
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.point.name + '</b>: ' + this.y + ' %';
                     }
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
         areaRangeSorted: {
-            series : [{
-                type : 'areasplinerange',
+            series: [{
+                type: 'areasplinerange',
                 minDataIndex: 'low',
                 maxDataIndex: 'high'
             }],
             xField: 'date',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart: {
-                },
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {},
                 title: {
                     text: 'Stock price from 28th Aug 2012 to 20th Sept 2012 - Apple (AAPL)'
                 },
                 subtitle: {
                     text: 'High & Low range'
                 },
-                legend: { enabled: false },
+                legend: {enabled: false},
                 credits: {
                     text: 'Learning Highcharts'
                 },
@@ -1631,7 +1630,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     },
                     labels: {
                         rotation: -45,
-                        align : 'center',
+                        align: 'center',
                         y: 40,
                         x: -20
                     }
@@ -1645,23 +1644,22 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         areaRangeUnsorted: {
-            series : [{
-                type : 'arearange',
-                dataIndex: [ 'open', 'close' ]
+            series: [{
+                type: 'arearange',
+                dataIndex: ['open', 'close']
             }],
             xField: 'date',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart: {
-                },
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {},
                 title: {
                     text: 'Stock price from 28th Aug 2012 to 20th Sept 2012 - Apple (AAPL)'
                 },
                 subtitle: {
                     text: 'Open & Close range'
                 },
-                legend: { enabled: false },
+                legend: {enabled: false},
                 credits: {
                     text: 'Learning Highcharts'
                 },
@@ -1672,7 +1670,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     },
                     labels: {
                         rotation: -45,
-                        align : 'center',
+                        align: 'center',
                         y: 40,
                         x: -20
                     }
@@ -1686,7 +1684,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         polar: {
-            series : [{
+            series: [{
                 type: 'column',
                 name: 'Lab Dept.',
                 dataIndex: 'lab'
@@ -1704,9 +1702,9 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 dataIndex: 'logistic'
             }],
             xField: 'time',
-            height : 500,
-            width : 700,
-            chartConfig : {
+            height: 500,
+            width: 700,
+            chartConfig: {
                 chart: {
                     polar: true
                 },
@@ -1718,7 +1716,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 },
                 tooltip: {
                     shared: true,
-                    formatter: function() {
+                    formatter: function () {
                         return "At the hour starting from " + this.x + "<br/>" +
                             this.points[0].series.name + ": " + ((this.points[0].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
                             this.points[1].series.name + ": " + ((this.points[1].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
@@ -1738,7 +1736,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         text: 'Percentage'
                     },
                     labels: {
-                        formatter: function() {
+                        formatter: function () {
                             return (this.value / 10000000).toFixed(0) + " %";
                         }
                     }
@@ -1752,22 +1750,21 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         columnRange: {
-            series : [{
+            series: [{
                 name: 'Open & Close',
-                type : 'columnrange',
-                dataIndex: [ 'open', 'close' ]
+                type: 'columnrange',
+                dataIndex: ['open', 'close']
             }, {
                 name: 'High & Low',
-                type : 'columnrange',
+                type: 'columnrange',
                 minDataIndex: 'low',
                 maxDataIndex: 'high'
             }],
             xField: 'date',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart: {
-                },
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {},
                 title: {
                     text: 'Stock price from 28th Aug 2012 to 20th Sept 2012 - Apple (AAPL)'
                 },
@@ -1784,7 +1781,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     },
                     labels: {
                         rotation: -45,
-                        align : 'center',
+                        align: 'center',
                         y: 40,
                         x: -20
                     }
@@ -1798,7 +1795,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         star: {
-            series : [{
+            series: [{
                 type: 'line',
                 name: '2011 June',
                 dataIndex: '2011_June'
@@ -1808,9 +1805,9 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 dataIndex: '2012_June'
             }],
             xField: 'browser',
-            height : 500,
-            width : 700,
-            chartConfig : {
+            height: 500,
+            width: 700,
+            chartConfig: {
                 chart: {
                     polar: true
                 },
@@ -1835,10 +1832,10 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         gauge: {
-            series : [{
-                type : 'gauge',
+            series: [{
+                type: 'gauge',
                 color: dialColor,
-                dataIndex : 'speed',
+                dataIndex: 'speed',
                 yAxis: 0,
                 dataLabels: {
                     color: '#E58964',
@@ -1849,7 +1846,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         fontFamily: 'digital',
                         fontStyle: 'italic'
                     },
-                    formatter: function() {
+                    formatter: function () {
                         return this.y.toFixed(1);
                     }
                 },
@@ -1868,9 +1865,9 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     radius: '0'
                 }
             }, {
-                type : 'gauge',
+                type: 'gauge',
                 color: dialColor,
-                dataIndex : 'rpm',
+                dataIndex: 'rpm',
                 yAxis: 2,
                 dataLabels: {
                     color: '#E58964',
@@ -1882,7 +1879,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         fontFamily: 'digital',
                         fontStyle: 'italic'
                     },
-                    formatter: function() {
+                    formatter: function () {
                         return (this.y * 1000).toFixed(0) + " rpm"
                     }
                 },
@@ -1900,22 +1897,22 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     radius: '0'
                 }
             }],
-            height : 500,
+            height: 500,
             listeners: {
-                afterChartRendered: function(chart) {
+                afterChartRendered: function (chart) {
                     var hcExt = this;
                     Demo.gaugeRunnerTask && Demo.gaugeRunnerTask.destroy();
                     Demo.gaugeRunnerTask = new Ext.util.TaskRunner();
                     Demo.gaugeRunnerTask.start({
-                        run: function() {
+                        run: function () {
                             hcExt.store.load({
                                 scope: this,  // runnerTask
-                                callback: function(records) {
+                                callback: function (records) {
                                     if (records[0].data.rpm == null && records[0].data.speed == null) {
                                         this.stop();
                                     }
                                 },
-                                params: { counter: this.taskRunCount }
+                                params: {counter: this.taskRunCount}
                             });
                         },
                         interval: 500,
@@ -1923,17 +1920,17 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     });
                 }
             },
-            width : 700,
-            chartConfig : {
+            width: 700,
+            chartConfig: {
                 chart: {
                     alignTicks: false,
                     events: {
-                        redraw: function() {
+                        redraw: function () {
                             this.ledBox && this.ledBox.destroy();
 
                             // 2nd pane center
                             var pane = this.panes[1].center;
-                            this.ledBox = this.renderer.rect(pane[0]-50, pane[1], 120, 80, 3).attr({
+                            this.ledBox = this.renderer.rect(pane[0] - 50, pane[1], 120, 80, 3).attr({
                                 fill: 'rgba(229,137,100, 0.1)',
                                 zIndex: 0
                             }).add();
@@ -1962,17 +1959,17 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         //  backgroundColor: '#E4E3DF',
                         backgroundColor: {
                             radialGradient: {
-		    			                  cx: 0.5,
-		    			                  cy: 0.6,
-		    			                  r: 1.0
-		    		                },
-	                          stops: [
-	                              [0.3, '#A7A9A4'],
-	                              //[0.6, '#FF04FF'],
-	                              [0.45, '#DDD'],
-	                              [0.7, '#EBEDEA']
-	                              //[0.7, '#FFFF04'],
-	                          ]
+                                cx: 0.5,
+                                cy: 0.6,
+                                r: 1.0
+                            },
+                            stops: [
+                                [0.3, '#A7A9A4'],
+                                //[0.6, '#FF04FF'],
+                                [0.45, '#DDD'],
+                                [0.7, '#EBEDEA']
+                                //[0.7, '#FFFF04'],
+                            ]
                         },
                         innerRadius: '72%',
                         outerRadius: '105%'
@@ -1982,15 +1979,15 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         zIndex: 1,
                         backgroundColor: {
                             radialGradient: {
-		    			                  cx: 0.5,
-		    			                  cy: 0.55,
-		    			                  r: 0.5
-		    		                },
-	                          stops: [
-                                [0.6, '#48443B' ],
-	                              [0.8, '#909090'],
-	                              [1, '#FFFFF6']
-	                          ]
+                                cx: 0.5,
+                                cy: 0.55,
+                                r: 0.5
+                            },
+                            stops: [
+                                [0.6, '#48443B'],
+                                [0.8, '#909090'],
+                                [1, '#FFFFF6']
+                            ]
                         },
                         outerRadius: '48%',
                         innerRadius: '40%'
@@ -2058,13 +2055,13 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         distance: 5,
                         rotation: 'auto',
                         style: {
-                            color: speedColor ,
+                            color: speedColor,
                             zIndex: 0
                         },
-                        formatter: function() {
+                        formatter: function () {
                             var val = null;
                             var label = this.value;
-                            $.each(kmhArr, function(idx, kmh) {
+                            $.each(kmhArr, function (idx, kmh) {
                                 if (label == kmh) {
                                     val = label;
                                     return false;
@@ -2106,9 +2103,9 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                             fontSize: 22,
                             color: rpmColor
                         },
-                        formatter: function() {
-                            if (this.value >=6) {
-                                return '<span style="color:' + hiRef +'">' + this.value + "</span>";
+                        formatter: function () {
+                            if (this.value >= 6) {
+                                return '<span style="color:' + hiRef + '">' + this.value + "</span>";
                             }
                             return this.value;
                         }
@@ -2116,12 +2113,12 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     pane: 1,
                     plotBands: [{
                         from: 6,
-	        	            to: 8,
-	        	            color: hiRef,
+                        to: 8,
+                        color: hiRef,
                         innerRadius: '94%'
                     }]
                 }],
-                tooltip: { enabled: false },
+                tooltip: {enabled: false},
                 credits: {
                     enabled: false
                 }
@@ -2131,15 +2128,15 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /********************************************************************
          * Bubble single series - use xField, yField and radius
          ********************************************************************/
-        bubbleSingle : {
-            series : [{
-                type : 'bubble',
+        bubbleSingle: {
+            series: [{
+                type: 'bubble',
                 xField: 'x',
                 yField: 'y',
                 radiusField: 'r',
                 marker: {
                     fillColor: {
-                        radialGradient: { cx: 0.4, cy: 0.3, r: 0.7 },
+                        radialGradient: {cx: 0.4, cy: 0.3, r: 0.7},
                         stops: [
                             [0, 'rgba(255,255,255,0.5)'],
                             [1, 'rgba(69,114,167,0.5)']
@@ -2147,24 +2144,24 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 }
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Single bubble series - use xField, yField and radiusField",
-                    x : -20 //center
+                title: {
+                    text: "Single bubble series - use xField, yField and radiusField",
+                    x: -20 //center
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -2173,32 +2170,32 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /********************************************************************
          * Bubble multiple series - same as Irregular data series
          ********************************************************************/
-        bubbleMulti : {
-            series : [{
-                type : 'bubble',
-                dataIndex : 'series1'
+        bubbleMulti: {
+            series: [{
+                type: 'bubble',
+                dataIndex: 'series1'
             }, {
-                type : 'bubble',
-                dataIndex : 'series2'
+                type: 'bubble',
+                dataIndex: 'series2'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Multiple bubble series - irregular data",
-                    x : -20 //center
+                title: {
+                    text: "Multiple bubble series - irregular data",
+                    x: -20 //center
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -2207,10 +2204,10 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /********************************************************************
          * Error bar series
          ********************************************************************/
-        errorBar : {
-            series : [{
+        errorBar: {
+            series: [{
                 type: 'errorbar',
-                dataIndex: [ 'open', 'close' ],
+                dataIndex: ['open', 'close'],
                 color: Highcharts.getOptions().colors[0],
                 lineWidth: 3
             }, {
@@ -2220,14 +2217,14 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 color: Highcharts.getOptions().colors[2]
             }],
             xField: 'date',
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
+                title: {
                     text: "Error bar - uses stock data for plotting two error bar series. (Open - Close) and (Low - High)",
                     x: -20 //center
                 },
@@ -2242,7 +2239,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     },
                     labels: {
                         rotation: -45,
-                        align : 'center',
+                        align: 'center',
                         y: 40,
                         x: -20
                     }
@@ -2252,13 +2249,13 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         text: 'Price ($)'
                     }
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -2267,8 +2264,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /********************************************************************
          * Box plot
          ********************************************************************/
-        boxPlot : {
-            series : [{
+        boxPlot: {
+            series: [{
                 type: 'boxplot',
                 xField: 'experiment',
                 minDataIndex: 'min',
@@ -2277,14 +2274,14 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 highQtrDataIndex: 'q2',
                 maxDataIndex: 'max'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
+                title: {
                     text: "Box Plot series",
                     x: -20 //center
                 },
@@ -2300,13 +2297,13 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         text: 'Observations'
                     }
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -2315,8 +2312,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /********************************************************************
          * Water fall demo
          ********************************************************************/
-        waterfall : {
-            series : [{
+        waterfall: {
+            series: [{
                 upColor: Highcharts.getOptions().colors[2],
                 color: Highcharts.getOptions().colors[3],
                 type: 'waterfall',
@@ -2336,14 +2333,14 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 },
                 pointPadding: 0
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
+                title: {
                     text: "Waterfall demo",
                     x: -20 //center
                 },
@@ -2355,64 +2352,64 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         text: 'USD'
                     }
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
-	pyramid: {
-            series : [{
+        pyramid: {
+            series: [{
                 type: 'pyramid',
                 categorieField: 'category',
                 yField: 'value'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 100
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 100
                 },
-                title : {
+                title: {
                     text: "Sales Pyramid demo",
                     x: -50 //center
                 },
-		plotOptions: {
-		    series: {
-			dataLabels: {
-			    enabled: true,
-			    format: '<b>{point.name}</b> ({point.y:,.0f})',
-			    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-			    softConnector: true
-			}
-		    }
-		},
+                plotOptions: {
+                    series: {
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b> ({point.y:,.0f})',
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+                            softConnector: true
+                        }
+                    }
+                },
                 legend: {
                     enabled: false
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
-	},
+        },
 
         /********************************************************************
          * Funnel demo
          ********************************************************************/
-        funnel : {
-            series : [{
+        funnel: {
+            series: [{
                 type: 'funnel',
                 categorieField: 'category',
                 yField: 'value',
@@ -2426,27 +2423,27 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 neckWidth: '30%',
                 neckHeight: '25%'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
+                title: {
                     text: "Funnel demo",
                     x: -20 //center
                 },
                 legend: {
                     enabled: false
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
@@ -2455,80 +2452,80 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         /****************************************************************
          *************** MISC TESTS FOR THE EXTENSION *******************
          ****************************************************************/
-        test1 : {
-            series : [{
-                type : 'spline',
-                dataIndex : 'series1'
+        test1: {
+            series: [{
+                type: 'spline',
+                dataIndex: 'series1'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Click 'Reload Data' several times to test add/remove data points in series update",
-                    x : -20 //center
+                title: {
+                    text: "Click 'Reload Data' several times to test add/remove data points in series update",
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : "Additional test: hide the series and click 'Reload Data' several times'",
-                    x : -20 //center
+                subtitle: {
+                    text: "Additional test: hide the series and click 'Reload Data' several times'",
+                    x: -20 //center
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
         test2: {
-            series : [{
-                type : 'pie',
-                categorieField : 'time',
-                dataField : 'temperature',
-                name : 'Temperature'
+            series: [{
+                type: 'pie',
+                categorieField: 'time',
+                dataField: 'temperature',
+                name: 'Temperature'
             }],
             resizable: false,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
                     // Fix the size of the chart
-                    height : 500,
-                    width : 700
+                    height: 500,
+                    width: 700
                 },
-                title : {
-                    text : "Resizing the browser window shouldn't redraw & resize the chart",
-                    x : -20 //center
+                title: {
+                    text: "Resizing the browser window shouldn't redraw & resize the chart",
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Chart size is fixed to 700 x 500',
-                    x : -20
+                subtitle: {
+                    text: 'Chart size is fixed to 700 x 500',
+                    x: -20
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
         test3: {
-            series : [{
-                type : 'pie',
-                categorieField : 'time',
-                dataField : 'temperature',
-                name : 'Temperature',
+            series: [{
+                type: 'pie',
+                categorieField: 'time',
+                dataField: 'temperature',
+                name: 'Temperature',
                 listeners: {
-                    pointclick: function(serie,point,record,event) {
+                    pointclick: function (serie, point, record, event) {
                         var msg = "Series name: " + serie.name +
                             ", selected temperature value: " + point.y + "<BR>" +
                             "data record index: " + record.index + ", event click (clientX & clientY): " +
@@ -2537,182 +2534,182 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 }
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Fire pointclick event when clicking a data point and show the selected record data",
-                    x : -20 //center
+                title: {
+                    text: "Fire pointclick event when clicking a data point and show the selected record data",
+                    x: -20 //center
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
         // Test updateNoRecord
-        test4 : {
-            series : [{
-                type : 'column',
-                dataIndex : 'yesterday',
-                name : 'Yesterday',
+        test4: {
+            series: [{
+                type: 'column',
+                dataIndex: 'yesterday',
+                name: 'Yesterday',
                 updateNoRecord: true
             }, {
-                type : 'column',
-                dataIndex : 'today',
-                name : 'Today'
+                type: 'column',
+                dataIndex: 'today',
+                name: 'Today'
             }],
-            height : 500,
-            width : 700,
-            xField : 'time',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            xField: 'time',
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Yesterday series is set with updateNoRecord option.<BR>Click 'Reload Data' and Yesterday series is returned in alternate reload.",
+                title: {
+                    text: "Yesterday series is set with updateNoRecord option.<BR>Click 'Reload Data' and Yesterday series is returned in alternate reload.",
                     useHTML: true
                 },
-                subtitle : {
-                    text : 'Expected Result: Today series remains and Yesterday appears in alternate reload',
+                subtitle: {
+                    text: 'Expected Result: Today series remains and Yesterday appears in alternate reload',
                     y: 50
                 },
-                xAxis : [{
-                    title : {
-                        text : 'Time',
-                        margin : 20
+                xAxis: [{
+                    title: {
+                        text: 'Time',
+                        margin: 20
                     },
-                    labels : {
-                        rotation : 270,
-                        y : 35,
-                        formatter : function () {
-                            var dt = Ext.Date.parse (parseInt (this.value) / 1000, "U");
+                    labels: {
+                        rotation: 270,
+                        y: 35,
+                        formatter: function () {
+                            var dt = Ext.Date.parse(parseInt(this.value) / 1000, "U");
                             if (dt) {
-                                return Ext.Date.format (dt, "H:i:s");
+                                return Ext.Date.format(dt, "H:i:s");
                             }
                             return this.value;
                         }
 
                     }
                 }],
-                yAxis : {
-                    title : {
-                        text : 'Temperature'
+                yAxis: {
+                    title: {
+                        text: 'Temperature'
                     }
                 },
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
 
         // Test load mask
-        test5 : {
-            series : [{
-                type : 'scatter',
-                lineWidth : 1,
+        test5: {
+            series: [{
+                type: 'scatter',
+                lineWidth: 1,
                 xField: 'rebars_x',
                 yField: 'rebars_y'
             }, {
-                type : 'scatter',
-                lineWidth : 0,
+                type: 'scatter',
+                lineWidth: 0,
                 xField: 'points_x',
                 yField: 'points_y'
             }],
             loadMask: true,
             loadMaskMsg: 'Test LoadMask screen .... ',
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120,
-                    zoomType : 'x'
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120,
+                    zoomType: 'x'
                 },
-                title : {
-                    text : "Click 'Reload Data' to see the loadMask popup while store is loading.",
-                    x : -20 //center
+                title: {
+                    text: "Click 'Reload Data' to see the loadMask popup while store is loading.",
+                    x: -20 //center
                 },
-                subtitle : {
-                    text : 'Server side is configured with 5 secs sleep before returning the data',
-                    x : -20
+                subtitle: {
+                    text: 'Server side is configured with 5 secs sleep before returning the data',
+                    x: -20
                 },
-                xAxis : [{
-                    labels : {
-                        rotation : 270,
-                        y : 35
+                xAxis: [{
+                    labels: {
+                        rotation: 270,
+                        y: 35
                     }
                 }],
-                legend : {
-                    layout : 'vertical',
-                    align : 'right',
-                    verticalAlign : 'top',
-                    x : -10,
-                    y : 100,
-                    borderWidth : 0
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }
         },
         // Test different size of pie series in each update
-        test6 : {
-            series : [{
-                type : 'pie',
+        test6: {
+            series: [{
+                type: 'pie',
                 categorieField: 'name',
                 dataField: 'iq',
                 name: 'IQ'
             }],
-            height : 500,
-            width : 700,
-            chartConfig : {
-                chart : {
-                    marginRight : 130,
-                    marginBottom : 120
+            height: 500,
+            width: 700,
+            chartConfig: {
+                chart: {
+                    marginRight: 130,
+                    marginBottom: 120
                 },
-                title : {
-                    text : "Click 'Reload Data' to test add/remove data points for pie series update"
+                title: {
+                    text: "Click 'Reload Data' to test add/remove data points for pie series update"
                 },
                 subtitle: {
                     text: 'The pie series rotate from 1 to 5 data points'
                 },
-                credits : {
-                    text : 'www.daoos.com',
-                    href : 'https://www.daoos.com',
-                    style : {
-                        cursor : 'pointer',
-                        color : '#707070',
-                        fontSize : '12px'
+                credits: {
+                    text: 'www.daoos.com',
+                    href: 'https://www.daoos.com',
+                    style: {
+                        cursor: 'pointer',
+                        color: '#707070',
+                        fontSize: '12px'
                     }
                 }
             }

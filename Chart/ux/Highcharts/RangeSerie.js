@@ -18,55 +18,55 @@
  *     }]
  */
 Ext.define('Chart.ux.Highcharts.RangeSerie', {
-	extend : 'Chart.ux.Highcharts.Serie',
+    extend: 'Chart.ux.Highcharts.Serie',
 
-  /***
-   * @cfg {String}
-   * data field mapping to store record which has minimum value
-   */
-	minDataIndex: null,
-  /***
-   * @cfg {String}
-   * data field mapping to store record which has maximum value
-   */
-	maxDataIndex: null,
-  /***
-   * @private
-   */
-	needSorting: null,
+    /***
+     * @cfg {String}
+     * data field mapping to store record which has minimum value
+     */
+    minDataIndex: null,
+    /***
+     * @cfg {String}
+     * data field mapping to store record which has maximum value
+     */
+    maxDataIndex: null,
+    /***
+     * @private
+     */
+    needSorting: null,
 
-  /***
-   * @cfg {Array}
-   * dataIndex in the range serie class is treated as an array of 
-   * [ field1, field2 ] if it is defined
-   */
-  dataIndex: null,
+    /***
+     * @cfg {Array}
+     * dataIndex in the range serie class is treated as an array of
+     * [ field1, field2 ] if it is defined
+     */
+    dataIndex: null,
 
-  /***
-   * @cfg yField
-   * @hide
-   */
+    /***
+     * @cfg yField
+     * @hide
+     */
 
-	constructor: function(config) {
-		if (Ext.isArray(config.dataIndex)) {
-			this.field1 = config.dataIndex[0];
-			this.field2 = config.dataIndex[1];
-			this.needSorting = true;
-		} else if (config.minDataIndex && config.maxDataIndex) {
-			this.minDataIndex = config.minDataIndex;
-			this.maxDataIndex = config.maxDataIndex;
-			this.needSorting = false;
-		}
-		this.callParent(arguments);
-	},
+    constructor: function (config) {
+        if (Ext.isArray(config.dataIndex)) {
+            this.field1 = config.dataIndex[0];
+            this.field2 = config.dataIndex[1];
+            this.needSorting = true;
+        } else if (config.minDataIndex && config.maxDataIndex) {
+            this.minDataIndex = config.minDataIndex;
+            this.maxDataIndex = config.maxDataIndex;
+            this.needSorting = false;
+        }
+        this.callParent(arguments);
+    },
 
-	getData: function(record, index) {
-		if (this.needSorting === true) {
-			return (record.data[this.field1] > record.data[this.field2]) ? [ record.data[this.field2], record.data[this.field1] ] : [ record.data[this.field1], record.data[this.field2] ];
-		}
+    getData: function (record, index) {
+        if (this.needSorting === true) {
+            return (record.data[this.field1] > record.data[this.field2]) ? [record.data[this.field2], record.data[this.field1]] : [record.data[this.field1], record.data[this.field2]];
+        }
 
-		if (record.data[this.minDataIndex] !== undefined && record.data[this.maxDataIndex] !== undefined) {
-			return ([record.data[this.minDataIndex], record.data[this.maxDataIndex]]);
-		}
-	}
+        if (record.data[this.minDataIndex] !== undefined && record.data[this.maxDataIndex] !== undefined) {
+            return ([record.data[this.minDataIndex], record.data[this.maxDataIndex]]);
+        }
+    }
 });

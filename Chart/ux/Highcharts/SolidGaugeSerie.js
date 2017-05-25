@@ -6,12 +6,12 @@
  * SolidGauge series is a one dimensional series type, i.e only y-axis data
  */
 Ext.define('Chart.ux.Highcharts.SolidGaugeSerie', {
-	extend : 'Chart.ux.Highcharts.Serie',
-	alternateClassName: [ 'highcharts.solidgauge' ],
-	type : 'solidgauge'
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.solidgauge'],
+    type: 'solidgauge'
 
-  /***
-   * @cfg xField
-   * @hide
-   */
+    /***
+     * @cfg xField
+     * @hide
+     */
 });

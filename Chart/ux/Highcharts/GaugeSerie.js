@@ -6,12 +6,12 @@
  * Gauge series is a one dimensional series type, i.e only y-axis data
  */
 Ext.define('Chart.ux.Highcharts.GaugeSerie', {
-	extend : 'Chart.ux.Highcharts.Serie',
-	alternateClassName: [ 'highcharts.gauge' ],
-	type : 'gauge'
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.gauge'],
+    type: 'gauge'
 
-  /***
-   * @cfg xField
-   * @hide
-   */
+    /***
+     * @cfg xField
+     * @hide
+     */
 });

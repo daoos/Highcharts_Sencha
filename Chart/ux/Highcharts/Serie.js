@@ -1,11 +1,11 @@
-	/***
- * Serie class is the base class for all the series types. Users shouldn't use any of the 
+/***
+ * Serie class is the base class for all the series types. Users shouldn't use any of the
  * series classes directly, they are created internally from Chart.ux.Highcharts depending on the
  * series configuration.
  *
- * Serie class is a general class for series data representation. 
- * # Mapping data fields 
- * In the Highcharts extension, the series option is declared outside of chartConfig, so as the *xField*. 
+ * Serie class is a general class for series data representation.
+ * # Mapping data fields
+ * In the Highcharts extension, the series option is declared outside of chartConfig, so as the *xField*.
  * There is a subtle difference for declaring xField outside or inside a series. For example:
  *
  *     series:[{
@@ -19,7 +19,7 @@
  *     }],
  *     xField: 'datetime',
  *     ....
- * This means both series share the same categories and each series has it own set of y-values. 
+ * This means both series share the same categories and each series has it own set of y-values.
  * In this case, the datetime field can be either string or numerical representation of date time.
  *
  *     series:[{
@@ -34,7 +34,7 @@
  *        xField: 'datetimeB'
  *     }],
  * This means both series have their own (x,y) data. In this case, the xField must refer to numerical values.
- * 
+ *
  * # Mapping multiple series with irregular datasets
  * Suppose we have 3 series with different set of data points. To map the store with the series, first
  * the store is required to return Json data in the following format:
@@ -64,9 +64,9 @@
  *
  *     <script type="text/javascript" src="http://code.highcharts.com/highcharts-3d.js"></script>
  *
- * To plot 3D charts, simply uses the as the Highcharts 3D option, [*options3d*](http://api.highcharts.com/highcharts#chart.options3d). 
+ * To plot 3D charts, simply uses the as the Highcharts 3D option, [*options3d*](http://api.highcharts.com/highcharts#chart.options3d).
  * Below is an example of 3D scatter using addition *zField* option for mapping z-axis value:
- * 
+ *
  *     series : [{
  *         type : 'scatter',
  *         xField: 'x',
@@ -89,20 +89,20 @@
  * For 3D column chart, users need to also specify *chartConfig.chart.type* as 'column'. 
  */
 Ext.define('Chart.ux.Highcharts.Serie', {
-    requires: [ 'Chart.ux.Highcharts',
-                'Ext.util.Observable'
-              ],
+    requires: ['Chart.ux.Highcharts',
+        'Ext.util.Observable'
+    ],
     mixins: {
         observable: 'Ext.util.Observable'
     },
 
     /***
-     * @cfg {String} type 
+     * @cfg {String} type
      * Highcharts series type name. This field must be specified.
      *
-     * Line, area, scatter and column series are the simplest form of charts 
-     * (includes Polar) which has the simple data mappings: *dataIndex* or *yField* 
-     * for y-axis values and xField for either x-axis category field or data point's 
+     * Line, area, scatter and column series are the simplest form of charts
+     * (includes Polar) which has the simple data mappings: *dataIndex* or *yField*
+     * for y-axis values and xField for either x-axis category field or data point's
      * x-axis coordinate.
      *
      *     series: [{
@@ -111,7 +111,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      *        yField: 'yValue'
      *     }]
      */
-    type : null,
+    type: null,
 
     /**
      * @readonly
@@ -127,7 +127,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      *         }
      *     }
      *
-     * Setting the scope on the listeners at runtime can cause trouble in Highcharts on 
+     * Setting the scope on the listeners at runtime can cause trouble in Highcharts on
      * parsing the listener
      */
     chart: null,
@@ -148,27 +148,27 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * The field used to access the x-axis value from the items from the data
      * source. Store's record
      */
-    xField : null,
+    xField: null,
 
     /**
      * @cfg {String} yField
      * The field used to access the y-axis value from the items from the data
      * source. Store's record
      */
-    yField : null,
+    yField: null,
 
     /**
-     * @cfg {String} dataIndex can be either an alias of *yField* 
+     * @cfg {String} dataIndex can be either an alias of *yField*
      * (which has higher precedence if both are defined) or mapping to store's field
      * with array of data points
      */
-    dataIndex : null,
+    dataIndex: null,
 
     /**
      * @cfg {String} colorField
      * This field is used for setting data point color
      * number or color hex in '#([0-9])'. Otherwise, the option
-     * is treated as a field name and the store should return 
+     * is treated as a field name and the store should return
      * rows with the same color field name. For column type series, if you
      * want Highcharts to automatically color each data point,
      * then you should use [plotOptions.column.colorByPoint][link2] option in the series config
@@ -180,13 +180,13 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * @cfg {Boolean} visible
      * The field used to hide the serie initial. Defaults to true.
      */
-    visible : true,
+    visible: true,
 
-    clear : Ext.emptyFn,
+    clear: Ext.emptyFn,
 
     /***
      * @cfg {Boolean} updateNoRecord
-     * Setting this option to true will enforce the chart to clear the series if 
+     * Setting this option to true will enforce the chart to clear the series if
      * there is no record returned for the series
      */
     updateNoRecord: false,
@@ -195,7 +195,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * @private
      * Resolve color based on the value of colorField
      */
-    resolveColor: function(colorField, record, dataPtIdx) {
+    resolveColor: function (colorField, record, dataPtIdx) {
 
         var color = null;
         if (colorField) {
@@ -216,10 +216,10 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * @private
      * object style of getData
      */
-    obj_getData : function(record, index) {
+    obj_getData: function (record, index) {
         var yField = this.yField || this.dataIndex, point = {
-            data : record.data,
-            y : record.data[yField]
+            data: record.data,
+            y: record.data[yField]
         };
         this.xField && (point.x = record.data[this.xField]);
         this.colorField && (point.color = this.resolveColor(this.colorField, record, index));
@@ -231,7 +231,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * @private
      * single value data version of getData - Common category, individual y-data
      */
-    arr_getDataSingle: function(record, index) {
+    arr_getDataSingle: function (record, index) {
         return record.data[this.yField];
     },
 
@@ -239,26 +239,26 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      * @private
      * each data point in the series is represented in it's own x and y values
      */
-    arr_getDataPair: function(record, index) {
-        return [ record.data[ this.xField ], record.data[ this.yField ] ];
+    arr_getDataPair: function (record, index) {
+        return [record.data[this.xField], record.data[this.yField]];
     },
 
     /***
      * @private
      * each data point in the series is represented in it's own x and y values
      */
-    arr_getDataTriplet: function(record, index) {
-        return [ record.data[ this.xField ], record.data[ this.yField ], record.data[ this.zField ] ];
+    arr_getDataTriplet: function (record, index) {
+        return [record.data[this.xField], record.data[this.yField], record.data[this.zField]];
     },
 
     /***
      * @method getData
      * getData is the core mechanism for transferring from Store's record data into the series data array.
-     * This routine acts as a Template Method for any series class, i.e. any new series type class must 
+     * This routine acts as a Template Method for any series class, i.e. any new series type class must
      * support this method.
-     * 
+     *
      * Generally, you don't need to override this method in the config because this method is internally
-     * created once the serie class is instantiated. Depending on whether *xField*, *yField* and 
+     * created once the serie class is instantiated. Depending on whether *xField*, *yField* and
      * *colorField* are defined, the class constructor creates a *getData* method which either returns a single value,
      * tuple array or a data point object. This is done for performance reason. See Highcharts API document
      * [Series.addPoint][link1] for more details.
@@ -286,14 +286,14 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      */
     getData: null,
 
-    serieCls : true,
+    serieCls: true,
 
-    constructor : function(config) {
+    constructor: function (config) {
 
-	var sencha = Chart.ux.Highcharts.sencha;
+        var sencha = Chart.ux.Highcharts.sencha;
 
         config.type = this.type;
-        if(!config.data) {
+        if (!config.data) {
             config.data = [];
         }
 
@@ -305,32 +305,32 @@ Ext.define('Chart.ux.Highcharts.Serie', {
             config.yField && (this.yField = config.yField);
             config.zField && (this.zField = config.zField);
             config.dataIndex && (this.dataIndex = config.dataIndex);
-	    
+
             this.addEvents(
-		/**
-		 * @event pointclick
-		 * Fires when the point of the serie is clicked.
-		 * @param {Chart.ux.Highcharts.Serie}  serie the serie where is fired
-		 * @param {Object} point the point clicked
-		 * @param {Ext.data.Record} record the record associated to the point
-		 * @param {Object} evt the event param
-		 */
-		'pointclick'
-	    );
+                /**
+                 * @event pointclick
+                 * Fires when the point of the serie is clicked.
+                 * @param {Chart.ux.Highcharts.Serie}  serie the serie where is fired
+                 * @param {Object} point the point clicked
+                 * @param {Ext.data.Record} record the record associated to the point
+                 * @param {Object} evt the event param
+                 */
+                'pointclick'
+            );
 
         } else {
             // addEvents is deprecated in ExtJs 5.0 and raise error
             (sencha.major < 5) && this.addEvents(
-		/**
-		 * @event pointclick
-		 * Fires when the point of the serie is clicked.
-		 * @param {Chart.ux.Highcharts.Serie}  serie the serie where is fired
-		 * @param {Object} point the point clicked
-		 * @param {Ext.data.Record} record the record associated to the point
-		 * @param {Object} evt the event param
-		 */
-		'pointclick'
-	    );
+                /**
+                 * @event pointclick
+                 * Fires when the point of the serie is clicked.
+                 * @param {Chart.ux.Highcharts.Serie}  serie the serie where is fired
+                 * @param {Object} point the point clicked
+                 * @param {Ext.data.Record} record the record associated to the point
+                 * @param {Object} evt the event param
+                 */
+                'pointclick'
+            );
         }
 
 
@@ -342,8 +342,8 @@ Ext.define('Chart.ux.Highcharts.Serie', {
 
         // If Highcharts series event is already defined, then don't support this
         // pointclick event
-        Ext.applyIf(config,{
-            events:{
+        Ext.applyIf(config, {
+            events: {
                 click: Ext.bind(this.onPointClick, this)
             }
         });
@@ -371,7 +371,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
      *  Build the initial data set if there are data already
      *  inside the store.
      */
-    buildInitData:function(items, data) {
+    buildInitData: function (items, data) {
         var chartConfig = null, xField = null;
         var record;
         var data = this.config.data = [];
@@ -387,7 +387,7 @@ Ext.define('Chart.ux.Highcharts.Serie', {
                 data.push(this.getData(record, x));
             }
         }
-        
+
         // Sencha touch initiates the config field differently
         if (Chart.ux.Highcharts.sencha.product == 't') {
             chartConfig = this.chart.config.chartConfig;
@@ -401,9 +401,9 @@ Ext.define('Chart.ux.Highcharts.Serie', {
             chartConfig = this.chart.chartConfig;
             xField = this.chart.xField;
         }
-        
+
         var xAxis = (Ext.isArray(chartConfig.xAxis)) ? chartConfig.xAxis[0] : chartConfig.xAxis;
-        
+
         // Build the first x-axis categories
         if (xField && (!xAxis.categories || xAxis.categories.length < items.length)) {
             xAxis.categories = xAxis.categories || [];
@@ -413,11 +413,11 @@ Ext.define('Chart.ux.Highcharts.Serie', {
         }
     },
 
-    onPointClick:function(evt){
-        this.fireEvent('pointclick',this,evt.point,evt.point.record,evt);
+    onPointClick: function (evt) {
+        this.fireEvent('pointclick', this, evt.point, evt.point.record, evt);
     },
 
-    destroy: function() {
+    destroy: function () {
         this.clearListeners();
         this.mixins.observable.destroy();
     }

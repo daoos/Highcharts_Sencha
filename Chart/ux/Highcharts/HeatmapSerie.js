@@ -26,9 +26,9 @@
  *      }]
  */
 Ext.define('Chart.ux.Highcharts.HeatmapSerie', {
-    extend : 'Chart.ux.Highcharts.Serie',
-    alternateClassName: [ 'highcharts.heatmap' ],
-    type : 'heatmap',
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.heatmap'],
+    type: 'heatmap',
 
     /***
      *  @cfg colorField
@@ -53,11 +53,11 @@ Ext.define('Chart.ux.Highcharts.HeatmapSerie', {
      */
     dataIndex: null,
 
-    getData: function(record) {
-	return [
-	    record.data[this.xField],
-	    record.data[this.yField],
-	    record.data[this.dataIndex]
-	];
+    getData: function (record) {
+        return [
+            record.data[this.xField],
+            record.data[this.yField],
+            record.data[this.dataIndex]
+        ];
     }
 });

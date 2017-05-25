@@ -1,1 +1,95 @@
-{"rows":[{"time":"8:00 am","lab":150000000,"sales":30000000,"support":40000000,"logistic":80000000},{"time":"9:00 am","lab":50000000,"sales":20000000,"support":100000000,"logistic":230000000},{"time":"10:00 am","lab":90000000,"sales":90000000,"support":120000000,"logistic":200000000},{"time":"11:00 am","lab":260000000,"sales":80000000,"support":90000000,"logistic":170000000},{"time":"12:00 pm","lab":150000000,"sales":150000000,"support":90000000,"logistic":310000000},{"time":"1:00 pm","lab":310000000,"sales":130000000,"support":130000000,"logistic":280000000},{"time":"2:00 pm","lab":140000000,"sales":90000000,"support":260000000,"logistic":410000000},{"time":"3:00 pm","lab":120000000,"sales":120000000,"support":150000000,"logistic":380000000},{"time":"4:00 pm","lab":110000000,"sales":130000000,"support":140000000,"logistic":320000000},{"time":"5:00 pm","lab":270000000,"sales":40000000,"support":110000000,"logistic":180000000},{"time":"6:00 pm","lab":90000000,"sales":30000000,"support":70000000,"logistic":150000000},{"time":"7:00 pm","lab":60000000,"sales":40000000,"support":70000000,"logistic":130000000},{"time":"8:00 pm","lab":60000000,"sales":20000000,"support":10000000,"logistic":60000000}]}
+{
+  "rows": [
+    {
+      "time": "8:00 am",
+      "lab": 150000000,
+      "sales": 30000000,
+      "support": 40000000,
+      "logistic": 80000000
+    },
+    {
+      "time": "9:00 am",
+      "lab": 50000000,
+      "sales": 20000000,
+      "support": 100000000,
+      "logistic": 230000000
+    },
+    {
+      "time": "10:00 am",
+      "lab": 90000000,
+      "sales": 90000000,
+      "support": 120000000,
+      "logistic": 200000000
+    },
+    {
+      "time": "11:00 am",
+      "lab": 260000000,
+      "sales": 80000000,
+      "support": 90000000,
+      "logistic": 170000000
+    },
+    {
+      "time": "12:00 pm",
+      "lab": 150000000,
+      "sales": 150000000,
+      "support": 90000000,
+      "logistic": 310000000
+    },
+    {
+      "time": "1:00 pm",
+      "lab": 310000000,
+      "sales": 130000000,
+      "support": 130000000,
+      "logistic": 280000000
+    },
+    {
+      "time": "2:00 pm",
+      "lab": 140000000,
+      "sales": 90000000,
+      "support": 260000000,
+      "logistic": 410000000
+    },
+    {
+      "time": "3:00 pm",
+      "lab": 120000000,
+      "sales": 120000000,
+      "support": 150000000,
+      "logistic": 380000000
+    },
+    {
+      "time": "4:00 pm",
+      "lab": 110000000,
+      "sales": 130000000,
+      "support": 140000000,
+      "logistic": 320000000
+    },
+    {
+      "time": "5:00 pm",
+      "lab": 270000000,
+      "sales": 40000000,
+      "support": 110000000,
+      "logistic": 180000000
+    },
+    {
+      "time": "6:00 pm",
+      "lab": 90000000,
+      "sales": 30000000,
+      "support": 70000000,
+      "logistic": 150000000
+    },
+    {
+      "time": "7:00 pm",
+      "lab": 60000000,
+      "sales": 40000000,
+      "support": 70000000,
+      "logistic": 130000000
+    },
+    {
+      "time": "8:00 pm",
+      "lab": 60000000,
+      "sales": 20000000,
+      "support": 10000000,
+      "logistic": 60000000
+    }
+  ]
+}

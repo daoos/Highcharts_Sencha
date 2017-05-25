@@ -1,1 +1,33 @@
-{"success":true,"rows":[{"rebars_x":0,"rebars_y":0,"points_x":40,"points_y":40},{"rebars_x":300,"rebars_y":0,"points_x":260,"points_y":40},{"rebars_x":300,"rebars_y":600,"points_x":260,"points_y":560},{"rebars_x":0,"rebars_y":600,"points_x":40,"points_y":560},{"rebars_x":0,"rebars_y":0}]}
+{
+  "success": true,
+  "rows": [
+    {
+      "rebars_x": 0,
+      "rebars_y": 0,
+      "points_x": 40,
+      "points_y": 40
+    },
+    {
+      "rebars_x": 300,
+      "rebars_y": 0,
+      "points_x": 260,
+      "points_y": 40
+    },
+    {
+      "rebars_x": 300,
+      "rebars_y": 600,
+      "points_x": 260,
+      "points_y": 560
+    },
+    {
+      "rebars_x": 0,
+      "rebars_y": 600,
+      "points_x": 40,
+      "points_y": 560
+    },
+    {
+      "rebars_x": 0,
+      "rebars_y": 0
+    }
+  ]
+}

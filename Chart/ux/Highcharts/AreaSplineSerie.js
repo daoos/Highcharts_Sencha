@@ -4,7 +4,7 @@
  * See {@link Chart.ux.Highcharts.Serie} class for more info
  */
 Ext.define('Chart.ux.Highcharts.AreaSplineSerie', {
-	extend : 'Chart.ux.Highcharts.Serie',
-	alternateClassName: [ 'highcharts.areaspline' ],
-	type : 'areaspline'
+    extend: 'Chart.ux.Highcharts.Serie',
+    alternateClassName: ['highcharts.areaspline'],
+    type: 'areaspline'
 });
