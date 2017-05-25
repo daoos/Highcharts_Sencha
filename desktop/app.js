@@ -32,9 +32,11 @@ Ext.require('Chart.ux.Highcharts.PyramidSerie');
 // ALWAYS POST!!
 Ext.override(Ext.data.proxy.Ajax,{
     getMethod: function(request) {
-        return 'GET'; 
+        return 'GET';
     }
 });
+// 全局配置，对当前页面的所有图表有效
+
 
 Ext.ns("Demo");
 

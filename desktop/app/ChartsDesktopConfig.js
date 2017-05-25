@@ -78,8 +78,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : '',
+                    href : 'www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -165,8 +165,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -251,8 +251,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -331,8 +331,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -413,8 +413,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -476,8 +476,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                                     Demo.menu.close();
                                 }
                             }]
-                        }); 
-                      
+                        });
+
                         Demo.menu.showAt(x + 5, y + 5);
                     }
                 },
@@ -584,8 +584,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -596,7 +596,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /*********************************************
-         *    Spline - afterChartRendered callback 
+         *    Spline - afterChartRendered callback
          *********************************************/
         splineAfterRenderedCallback : {
             series : [{
@@ -619,7 +619,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     });
                     temp = temp / chart.series[0].data.length;
 
-                    Ext.Msg.alert('Info', 'This message box is called after the chart is rendered. ' + 
+                    Ext.Msg.alert('Info', 'This message box is called after the chart is rendered. ' +
                                   'Extension width:' + size.width + ', height: ' + size.height + '. ' +
                                   'Series (' + chart.series[0].name + ') Average: ' + temp);
                 }
@@ -677,8 +677,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -772,8 +772,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -784,7 +784,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /****************************************************************************
-         *    Spline - No Store binding  
+         *    Spline - No Store binding
          ****************************************************************************/
         splineNoStore : {
             height : 500,
@@ -810,8 +810,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -822,7 +822,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /****************************************************************************
-         *    Spline - Irregular data of 3 series with random number of data points  
+         *    Spline - Irregular data of 3 series with random number of data points
          ****************************************************************************/
         splineIrregular : {
             series : [{
@@ -850,8 +850,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20 //center
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -862,7 +862,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /*********************************************
-         *    Spline - null data, discontinued graph 
+         *    Spline - null data, discontinued graph
          *********************************************/
         splineNullData : {
             series : [{
@@ -940,8 +940,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -952,7 +952,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /*********************************************
-         *    Spline - null data, discontinued graph 
+         *    Spline - null data, discontinued graph
          *********************************************/
         splineConnectNulls : {
             series : [{
@@ -1031,8 +1031,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1128,8 +1128,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1212,8 +1212,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1305,8 +1305,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1344,11 +1344,11 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     text : 'Random Value',
                     x : -20
                 },
-                plotOptions: { 
-                    pie: { 
+                plotOptions: {
+                    pie: {
 			depth: 35,
-                        allowPointSelect: true 
-                    } 
+                        allowPointSelect: true
+                    }
                 },
                 tooltip : {
                     formatter : function () {
@@ -1364,8 +1364,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1397,10 +1397,10 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     text : 'Random Value',
                     x : -20
                 },
-                plotOptions: { 
-                    pie: { 
-                        allowPointSelect: true 
-                    } 
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true
+                    }
                 },
                 tooltip : {
                     formatter : function () {
@@ -1416,8 +1416,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1474,8 +1474,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
 		    gridLineWidth: 1
 		},
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1526,8 +1526,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1591,8 +1591,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -1719,16 +1719,16 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 tooltip: {
                     shared: true,
                     formatter: function() {
-                        return "At the hour starting from " + this.x + "<br/>" + 
-                            this.points[0].series.name + ": " + ((this.points[0].y / 1000000000) * 100).toFixed(2) + " %<br/>" + 
-                            this.points[1].series.name + ": " + ((this.points[1].y / 1000000000) * 100).toFixed(2) + " %<br/>" + 
-                            this.points[2].series.name + ": " + ((this.points[2].y / 1000000000) * 100).toFixed(2) + " %<br/>" + 
+                        return "At the hour starting from " + this.x + "<br/>" +
+                            this.points[0].series.name + ": " + ((this.points[0].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
+                            this.points[1].series.name + ": " + ((this.points[1].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
+                            this.points[2].series.name + ": " + ((this.points[2].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
                             this.points[3].series.name + ": " + ((this.points[3].y / 1000000000) * 100).toFixed(2) + " %<br/>" +
-                            "Free: " + ((this.points[0].total / 1000000000) * 100).toFixed(2) + " %"; 
+                            "Free: " + ((this.points[0].total / 1000000000) * 100).toFixed(2) + " %";
                     }
                 },
                 credits: {
-                    text: 'joekuan.wordpress.com'
+                    text: 'www.daoos.com'
                 },
                 xAxis: {
                     tickmarkPlacement: 'between'
@@ -1829,7 +1829,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 },
                 yAxis: {
                     gridLineInterpolation: 'polygon',
-                    lineWidth: 0 
+                    lineWidth: 0
                 }
             }
         },
@@ -1932,10 +1932,10 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                             this.ledBox && this.ledBox.destroy();
 
                             // 2nd pane center
-                            var pane = this.panes[1].center; 
+                            var pane = this.panes[1].center;
                             this.ledBox = this.renderer.rect(pane[0]-50, pane[1], 120, 80, 3).attr({
                                 fill: 'rgba(229,137,100, 0.1)',
-                                zIndex: 0 
+                                zIndex: 0
                             }).add();
                         }
                     }
@@ -1960,11 +1960,11 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }, {
                         // BG color for speed
                         //  backgroundColor: '#E4E3DF',
-                        backgroundColor: { 
+                        backgroundColor: {
                             radialGradient: {
 		    			                  cx: 0.5,
 		    			                  cy: 0.6,
-		    			                  r: 1.0 
+		    			                  r: 1.0
 		    		                },
 	                          stops: [
 	                              [0.3, '#A7A9A4'],
@@ -1980,11 +1980,11 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         // Below rpm bg color
                         // backgroundColor: '#909090',
                         zIndex: 1,
-                        backgroundColor: { 
+                        backgroundColor: {
                             radialGradient: {
 		    			                  cx: 0.5,
 		    			                  cy: 0.55,
-		    			                  r: 0.5 
+		    			                  r: 0.5
 		    		                },
 	                          stops: [
                                 [0.6, '#48443B' ],
@@ -2068,8 +2068,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                                 if (label == kmh) {
                                     val = label;
                                     return false;
-                                } 
-                            }); 
+                                }
+                            });
                             return val;
                         }
                     },
@@ -2104,7 +2104,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                         style: {
                             fontFamily: 'Squada One',
                             fontSize: 22,
-                            color: rpmColor 
+                            color: rpmColor
                         },
                         formatter: function() {
                             if (this.value >=6) {
@@ -2123,7 +2123,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 }],
                 tooltip: { enabled: false },
                 credits: {
-                    enabled: false 
+                    enabled: false
                 }
             }
         },
@@ -2159,8 +2159,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20 //center
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2193,8 +2193,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20 //center
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2205,7 +2205,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
         },
 
         /********************************************************************
-         * Error bar series 
+         * Error bar series
          ********************************************************************/
         errorBar : {
             series : [{
@@ -2253,8 +2253,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2301,8 +2301,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2356,8 +2356,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2397,8 +2397,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     enabled: false
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2441,8 +2441,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     enabled: false
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2476,8 +2476,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20 //center
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2485,7 +2485,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     }
                 }
             }
-        }, 
+        },
         test2: {
             series : [{
                 type : 'pie',
@@ -2511,8 +2511,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2529,7 +2529,7 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                 name : 'Temperature',
                 listeners: {
                     pointclick: function(serie,point,record,event) {
-                        var msg = "Series name: " + serie.name + 
+                        var msg = "Series name: " + serie.name +
                             ", selected temperature value: " + point.y + "<BR>" +
                             "data record index: " + record.index + ", event click (clientX & clientY): " +
                             event.clientX + ", " + event.clientY;
@@ -2549,8 +2549,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     x : -20 //center
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2620,8 +2620,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2675,8 +2675,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     borderWidth : 0
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
@@ -2707,8 +2707,8 @@ Ext.define ("Highcharts.ChartsDesktopConfig", {
                     text: 'The pie series rotate from 1 to 5 data points'
                 },
                 credits : {
-                    text : 'joekuan.wordpress.com',
-                    href : 'http://joekuan.wordpress.com',
+                    text : 'www.daoos.com',
+                    href : 'https://www.daoos.com',
                     style : {
                         cursor : 'pointer',
                         color : '#707070',
