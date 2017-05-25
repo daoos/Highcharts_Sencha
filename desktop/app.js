@@ -3,7 +3,8 @@ Ext.Loader.setConfig({
     disableCaching : true, // For debug only
     paths : {
         // 'Chart' : HOME + '/highcharts_extjs4'     // For website
-        'Chart' : '../Chart'
+        'Chart' : '../Chart',
+        'ECharts':'../ECharts'
     }
 });
 
@@ -28,7 +29,7 @@ Ext.require('Chart.ux.Highcharts.ScatterSerie');
 Ext.require('Chart.ux.Highcharts.SplineSerie');
 Ext.require('Chart.ux.Highcharts.WaterfallSerie');
 Ext.require('Chart.ux.Highcharts.PyramidSerie');
-
+Ext.require('ECharts.ux.ECharts');
 // ALWAYS POST!!
 Ext.override(Ext.data.proxy.Ajax,{
     getMethod: function(request) {
@@ -84,7 +85,7 @@ Ext.application({
                 xtype : 'chartsTree',
                 margins : '0 0 5 5',
                 split: true
-            }, {
+            },{
                 region : 'center',
                 id : 'centerpane',
                 xtype : 'panel',
