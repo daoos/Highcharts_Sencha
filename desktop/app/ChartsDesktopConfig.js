@@ -9,17 +9,18 @@ Ext.define("Highcharts.ChartsDesktopConfig", {
     singleton: true,
     config: {
         spline: {
-            series: [{
-                dataIndex: 'yesterday',
-                name: 'Yesterday'
-            }, {
-                dataIndex: 'today',
-                name: 'Today'
-            }],
+
             height: 500,
             width: 700,
             xField: 'time',
             chartConfig: {
+                series: [{
+                    dataIndex: 'yesterday',
+                    name: 'Yesterday'
+                }, {
+                    dataIndex: 'today',
+                    name: 'Today'
+                }],
                 chart: {
                     marginRight: 130,
                     marginBottom: 120,

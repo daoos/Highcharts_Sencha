@@ -2,1021 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e8c43-5da0-4c19-9666-3c92fa226147" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/css/highcharts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-3d.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-more.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highmaps.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/highstock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-3d.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-3d.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-more.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highmaps.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/highstock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/accessibility.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/annotations.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost-canvas.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost-canvas.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/broken-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/canvasrenderer.experimental.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/drilldown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/export-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/export-data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/export-data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/funnel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/gantt.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/grid-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/heatmap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/map-parser.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/map.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/no-data-to-display.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/offline-exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/overlapping-datalabels.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/series-label.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/solid-gauge.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/static-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/static-scale.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/static-scale.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/stock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/treemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/xrange-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/xrange-series.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/modules/xrange-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/js/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/canvg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/canvg.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/jspdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/jspdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/rgbcolor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/rgbcolor.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/svg2pdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/lib/svg2pdf.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/accessibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/accessibility.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/accessibility.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/annotations.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost-canvas.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost-canvas.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/boost.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/broken-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/broken-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/broken-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/canvasrenderer.experimental.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/drilldown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/export-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/export-data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/export-data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/funnel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/gantt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/gantt.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/gantt.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/grid-axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/grid-axis.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/grid-axis.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/heatmap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/map-parser.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/map.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/no-data-to-display.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/offline-exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/offline-exporting.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/offline-exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/overlapping-datalabels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/overlapping-datalabels.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/overlapping-datalabels.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/series-label.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/series-label.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/series-label.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/solid-gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/solid-gauge.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/solid-gauge.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/static-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/static-scale.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/static-scale.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/stock.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/stock.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/treemap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/treemap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/xrange-series.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/xrange-series.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/modules/xrange-series.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/dark-unica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/grid-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/sand-signika.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chart/highcharts5.0.12/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery1.7.2/jquery.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/License" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/createdoc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/ChartsDesktopConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/controller/Charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/BoxPlotData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Browsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/BrowsersJune.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/BubbleMulti.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/BubbleSingle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/IQ.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/IrregularData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/NetworkUsage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/NullTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/NumericTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Scatter3d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Speedometer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Stock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/TempSummary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Temperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/model/Waterfall.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/BoxPlotStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Browsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/BrowsersJune.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/BubbleMulti.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/BubbleSingle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/ChartsTree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/FunnelStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/IQ.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/IrregularData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/NetworkUsage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/NullTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/NumericTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Scatter3d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/SolidGauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Speedometer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Stock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/TempSummary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/Temperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/UpdateNoRecord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/store/WaterfallStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/app/view/chart/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/annual_temp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/boxplot.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/browsers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/browsers_june.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/bubblemulti.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/bubblesingle.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/funnel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/get-charts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/iq.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/irregular.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/netusage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/noRecord.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/random_speed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/scatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/scatter3d.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/scatter3d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/speed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/standalone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/stock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/stock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/temp_example.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/data/waterfall.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/standalone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/standalone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop.extjs5/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/3DColumn.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/3DPie.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/3DScatter.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/AreaRange(unsortedFields).json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/AreaSplineRange(pre-sortedFields).json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/BoxPlot.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Bubble(MultipleSeries).json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Bubble(SimpleSeries).json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Column.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Column_drillDown.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/ColumnsRange.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Donut(Pie).json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/ErrorBar.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Funnel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Pie.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Polar_Rander.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Pyramid.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Scatter.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Spline-LineShift.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Spline.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/SplineNullData.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Spline_IrreguarData.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Star.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Untitled Document" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/Waterfall.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/get-chart.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/data/Untitled Folder/temp_example.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/index.extjs5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/app-0c945a27f43452df695771ddb60b3d14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data-1672773dd6313500062906e3d1d3e7ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/eg-iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/ext-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/boundlist/trigger-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/corners-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/l-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/l.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/r-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/r.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/tb-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/box/tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn-group/btn-group-default-framed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn-group/btn-group-default-framed-notitle-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn-group/btn-group-default-framed-notitle-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn-group/btn-group-default-framed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-large-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-medium-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-small-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-large-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-focus-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-focus-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/btn/btn-default-toolbar-small-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/group-cs.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/group-lr.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/group-tb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-b-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-bo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-light.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-noline.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow-o.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/button/s-arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/datepicker/datepicker-footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/datepicker/datepicker-footer-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/datepicker/datepicker-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/datepicker/datepicker-header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/dd/drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/dd/drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/dd/drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/editor/tb-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form-invalid-tip/form-invalid-tip-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form-invalid-tip/form-invalid-tip-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/clear-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/date-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/error-tip-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/exclamation.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/radio.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/search-trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/spinner-small.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/text-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/trigger-square.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/trigger-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/form/trigger.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/arrow-left-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/arrow-right-white.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/cell-special-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/cell-special-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/cell-special-selected-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/cell-special-selected-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/checked.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/col-move-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/col-move-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/column-header-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/column-header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/column-header-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/column-header-over-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/columns.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/dd-insert-arrow-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/dd-insert-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/dd-insert-arrow-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/dd-insert-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/dirty.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/done.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/footer-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-blue-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-blue-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-hrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-split.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid-vista-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid3-hd-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid3-hrow-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid3-hrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/grid3-rowheader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/group-by.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/group-collapse.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/group-expand-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/group-expand.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hd-pop.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-lock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-unlock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/hmenu-unlock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/invalid_line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/mso-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/nowait.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-first-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-first.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-last-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-last.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-next-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-prev-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/page-prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/pick-button.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/property-cell-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/property-cell-selected-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/refresh-disabled.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/refresh.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/row-check-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/row-expand-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/row-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/row-sel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/sort-hd.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/sort_asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/sort_desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/unchecked.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/grid/wait.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/layout/mini-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/layout/mini-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/layout/mini-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/layout/mini-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/checked.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/group-checked.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/item-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/menu-item-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/menu-item-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/menu-item-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/menu-parent.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/menu.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/menu/unchecked.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-framed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-left-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-right-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel-header/panel-header-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel/panel-default-framed-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/panel/panel-default-framed-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/progress/progress-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/blue-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/glass-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/hd-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/icon-error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/icon-info.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/icon-question.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/icon-warning.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/large-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/left-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/loading-balls.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/right-btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/shadow-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/shadow-lr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/shared/warning.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/e-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/e-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/ne-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/ne-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/nw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/nw-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/s-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/s-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/se-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/se-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/square.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/sw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/sizer/sw-handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-v-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-v-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-v-thumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/slider/slider-v-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab-bar/scroll-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab-bar/scroll-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab-bar/tab-bar-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-active-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-active-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-active-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-disabled-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-disabled-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-disabled-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-over-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-over-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-over-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tab/tab-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tip/tip-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tip/tip-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/toolbar/more.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/toolbar/scroll-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/toolbar/scroll-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/toolbar/toolbar-default-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tools/tool-sprite-tpl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tools/tool-sprites.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tools/tools-sprites-trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/arrows.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-above.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-add.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-append.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-below.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-between.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-no.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-under.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/drop-yes.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-end-minus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-end-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-end-plus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-end-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-end.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-minus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-plus-nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow-plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/elbow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/folder-open.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/leaf.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/tree/s.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/util/splitter/mini-bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/util/splitter/mini-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/util/splitter/mini-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/util/splitter/mini-top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-bottom-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-bottom-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-collapsed-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-left-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-left-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-right-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-right-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-top-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window-header/window-header-default-top-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window/window-default-corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/extjs/resources/themes/images/default/window/window-default-sides.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/cfg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/css_mixin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/css_var.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/event.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/method.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/member-icons/property.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.AreaRangeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.AreaSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.AreaSplineRangeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.AreaSplineSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.BarSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.BoxPlotSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.BubbleSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.ColumnRangeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.ColumnSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.ErrorBarSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.FunnelSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.GaugeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.HeatmapSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.LineSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.MapBubbleSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.MapLineSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.MapPointSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.MapSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.PieSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.PyramidSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.RangeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.ScatterSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.Serie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.SolidGaugeSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.SplineSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.WaterfallSerie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/output/Chart.ux.Highmaps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/css/app-4689d2a5522dcd3c9e9923ca59c33f27.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/class-m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/comment-bubble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/component-m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/default-guide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/doc-m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/down-arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/elbow-end.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/example-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/expandcollapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/group-expand-sprite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/hero-extjs4-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/link-green-standard-over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/link-green-standard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/logo-screen-noglow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/member-collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/member-expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/member-hover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/phone-l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/phone-p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/phone-small-l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/phone-small-p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/sample-over.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/search-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/singleton-m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/tablet-l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/tablet-p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/tabs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/text-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/vote-arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/welcome-bg-js4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/images/x12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/resources/prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/AreaRangeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/AreaSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/AreaSplineRangeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/AreaSplineSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/BarSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/BoxPlotSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/BubbleSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/ColumnRangeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/ColumnSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/ErrorBarSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/FunnelSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/GaugeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/HeatmapSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/Highcharts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/Highmaps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/LineSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/MapBubbleSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/MapLineSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/MapPointSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/MapSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/PieSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/PyramidSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/RangeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/ScatterSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/Serie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/SolidGaugeSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/SplineSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/WaterfallSerie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/styles-3eba09980fa05ead185cb17d9c0deb0f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/Chart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app.json.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/Application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/controller/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/controller/Navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/controller/Navigation.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/controller/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Drilldown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/MapData2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/PopDensity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/PopDensity1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Population.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/PopulationHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/USMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/USStates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Value.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/Vote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/model/XYCoord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Borders.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Cities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Drilldown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/MapData2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Meuse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/MeuseAreas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/MeuseBasin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/PopDensity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/PopDensity1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/PopulationHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Tributaries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/USCountiesBorders.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/USCountiesData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/USCountiesMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/USMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/USStates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/Vote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/store/WorldPopulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/view/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/view/MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/view/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/view/SetValue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/app/view/Viewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/bootstrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/build/temp/production/Demo/sencha-compiler/app/full-page-master-bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/build/temp/production/Demo/sencha-compiler/cmd-packages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/borders.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/cities.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/csvToJson.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/heatmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/meuse.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/meuse_river_areas.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/meuse_river_basin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/population_density.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/population_density_1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/population_history.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/population_history.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/population_history_latest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/popup_graph.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/sample" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/tributaries.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_counties.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_counties_borders.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_counties_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_states.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_states_1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_states_drilldown.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_states_drilldown.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/us_states_drilldown_1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/votes.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/votes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/world_map_2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/data/world_population.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/flags16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/flags32.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/flags32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/sass/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/sass/example/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/sass/example/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/sass/example/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/sass/example/theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/theme/ext-theme-neptune-71d01519-df61-4e11-aa14-d86b81b2b093.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/highmaps_demo.extjs4/theme/ext-theme-neptune-fbc8c7e7-abd4-4a59-8a38-b5bbc2964c2c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/ChartsMobileConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Browsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/BrowsersJune.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/BubbleSingle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/EmbeddedData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/NetworkUsage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/NullTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/NumericTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Speedometer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Stock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/TempSummary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/model/Temperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/Browsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/BrowsersJune.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/BubbleSingle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/EmbeddedData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/NetworkUsage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/NullTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/NumericTemperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/Scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/Speedometer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/Stock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/TempSummary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/app/store/Temperature.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/annual_temp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/browsers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/browsers_june.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/bubblesingle.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/get-charts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/netusage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/scatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/speed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/standalone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/stock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/stock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/data/temp_example.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/asterisk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/banner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/color-adjustment-green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/color-adjustment-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/color-adjustment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/columnchart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/gauge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/linechart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/piechart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/radar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/ring.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/images/scatter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/standalone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/standalone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/private/check_js.sh" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/echarts/echarts.min.js" afterPath="$PROJECT_DIR$/ECharts/echarts3.6.0/echarts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaRangeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaRangeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSplineRangeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSplineRangeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSplineSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSplineSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/BarSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/BarSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/BoxPlotSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/BoxPlotSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/BubbleSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/BubbleSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/ColumnRangeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/ColumnRangeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/ColumnSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/ColumnSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/ErrorBarSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/ErrorBarSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/FunnelSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/FunnelSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/GaugeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/GaugeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/HeatmapSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/HeatmapSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/LineSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/LineSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/MapBubbleSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/MapBubbleSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/MapLineSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/MapLineSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/MapPointSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/MapPointSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/MapSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/MapSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/PieSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/PieSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/PyramidSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/PyramidSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/RangeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/RangeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/ScatterSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/ScatterSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/Serie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/Serie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/SolidGaugeSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/SolidGaugeSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/SplineSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/SplineSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highcharts/WaterfallSerie.js" afterPath="$PROJECT_DIR$/Chart/ux/Highcharts/WaterfallSerie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart/ux/Highmaps.js" afterPath="$PROJECT_DIR$/Chart/ux/Highmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app.js" afterPath="$PROJECT_DIR$/desktop/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js" afterPath="$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/controller/Charts.js" afterPath="$PROJECT_DIR$/desktop/app/controller/Charts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/BoxPlotData.js" afterPath="$PROJECT_DIR$/desktop/app/model/BoxPlotData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Browsers.js" afterPath="$PROJECT_DIR$/desktop/app/model/Browsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/BubbleMulti.js" afterPath="$PROJECT_DIR$/desktop/app/model/BubbleMulti.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/BubbleSingle.js" afterPath="$PROJECT_DIR$/desktop/app/model/BubbleSingle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Funnel.js" afterPath="$PROJECT_DIR$/desktop/app/model/Funnel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/IQ.js" afterPath="$PROJECT_DIR$/desktop/app/model/IQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/IrregularData.js" afterPath="$PROJECT_DIR$/desktop/app/model/IrregularData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/NetworkUsage.js" afterPath="$PROJECT_DIR$/desktop/app/model/NetworkUsage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/NullTemperature.js" afterPath="$PROJECT_DIR$/desktop/app/model/NullTemperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/NumericTemperature.js" afterPath="$PROJECT_DIR$/desktop/app/model/NumericTemperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Speedometer.js" afterPath="$PROJECT_DIR$/desktop/app/model/Speedometer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Stock.js" afterPath="$PROJECT_DIR$/desktop/app/model/Stock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/TempSummary.js" afterPath="$PROJECT_DIR$/desktop/app/model/TempSummary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Temperature.js" afterPath="$PROJECT_DIR$/desktop/app/model/Temperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/model/Waterfall.js" afterPath="$PROJECT_DIR$/desktop/app/model/Waterfall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/BoxPlotStore.js" afterPath="$PROJECT_DIR$/desktop/app/store/BoxPlotStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Browsers.js" afterPath="$PROJECT_DIR$/desktop/app/store/Browsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/BrowsersJune.js" afterPath="$PROJECT_DIR$/desktop/app/store/BrowsersJune.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/BubbleMulti.js" afterPath="$PROJECT_DIR$/desktop/app/store/BubbleMulti.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/BubbleSingle.js" afterPath="$PROJECT_DIR$/desktop/app/store/BubbleSingle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/ChartsTree.js" afterPath="$PROJECT_DIR$/desktop/app/store/ChartsTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/FunnelStore.js" afterPath="$PROJECT_DIR$/desktop/app/store/FunnelStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/IQ.js" afterPath="$PROJECT_DIR$/desktop/app/store/IQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/IrregularData.js" afterPath="$PROJECT_DIR$/desktop/app/store/IrregularData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/NetworkUsage.js" afterPath="$PROJECT_DIR$/desktop/app/store/NetworkUsage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/NullTemperature.js" afterPath="$PROJECT_DIR$/desktop/app/store/NullTemperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/NumericTemperature.js" afterPath="$PROJECT_DIR$/desktop/app/store/NumericTemperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Scatter.js" afterPath="$PROJECT_DIR$/desktop/app/store/Scatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Scatter3d.js" afterPath="$PROJECT_DIR$/desktop/app/store/Scatter3d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Speedometer.js" afterPath="$PROJECT_DIR$/desktop/app/store/Speedometer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Stock.js" afterPath="$PROJECT_DIR$/desktop/app/store/Stock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/TempSummary.js" afterPath="$PROJECT_DIR$/desktop/app/store/TempSummary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/Temperature.js" afterPath="$PROJECT_DIR$/desktop/app/store/Temperature.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/UpdateNoRecord.js" afterPath="$PROJECT_DIR$/desktop/app/store/UpdateNoRecord.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/store/WaterfallStore.js" afterPath="$PROJECT_DIR$/desktop/app/store/WaterfallStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/app/view/chart/Tree.js" afterPath="$PROJECT_DIR$/desktop/app/view/chart/Tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/annual_temp.json" afterPath="$PROJECT_DIR$/desktop/data/annual_temp.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/boxplot.json" afterPath="$PROJECT_DIR$/desktop/data/boxplot.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/browsers.json" afterPath="$PROJECT_DIR$/desktop/data/browsers.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/browsers_june.json" afterPath="$PROJECT_DIR$/desktop/data/browsers_june.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/bubblemulti.json" afterPath="$PROJECT_DIR$/desktop/data/bubblemulti.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/bubblesingle.json" afterPath="$PROJECT_DIR$/desktop/data/bubblesingle.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/funnel.json" afterPath="$PROJECT_DIR$/desktop/data/funnel.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/get-charts.json" afterPath="$PROJECT_DIR$/desktop/data/get-charts.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/iq.json" afterPath="$PROJECT_DIR$/desktop/data/iq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/irregular.json" afterPath="$PROJECT_DIR$/desktop/data/irregular.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/netusage.json" afterPath="$PROJECT_DIR$/desktop/data/netusage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/noRecord.json" afterPath="$PROJECT_DIR$/desktop/data/noRecord.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/scatter.json" afterPath="$PROJECT_DIR$/desktop/data/scatter.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/scatter3d.json" afterPath="$PROJECT_DIR$/desktop/data/scatter3d.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/speed.json" afterPath="$PROJECT_DIR$/desktop/data/speed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/standalone.json" afterPath="$PROJECT_DIR$/desktop/data/standalone.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/stock.json" afterPath="$PROJECT_DIR$/desktop/data/stock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/temp_example.json" afterPath="$PROJECT_DIR$/desktop/data/temp_example.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/data/waterfall.json" afterPath="$PROJECT_DIR$/desktop/data/waterfall.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/index.html" afterPath="$PROJECT_DIR$/desktop/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/standalone.html" afterPath="$PROJECT_DIR$/desktop/standalone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/standalone.js" afterPath="$PROJECT_DIR$/desktop/standalone.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -1030,42 +16,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Highcharts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="81" column="16" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dynLoadData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/js/dynLoadData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ECharts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ECharts/ux/ECharts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Charts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/app/controller/Charts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp_example.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/data/temp_example.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1074,8 +50,70 @@
       <file leaf-file-name="EChartsCompoment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ECharts/ux/EChartsCompoment.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterfall.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/data/waterfall.json">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxPlotData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/app/model/BoxPlotData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChartsDesktopConfig.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="64" column="18" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="64" selection-end-column="18" />
+              <folding>
+                <marker date="1495807543987" expanded="true" signature="73276:73282" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxPlotStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/app/store/BoxPlotStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funnel.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/data/funnel.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boxplot.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/data/boxplot.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="42" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -1093,6 +131,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>charts\</find>
+      <find>config.series</find>
+      <find>series</find>
+      <find>Spline</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1101,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chart/ux/Highcharts.js" />
         <option value="$PROJECT_DIR$/Chart/ux/Highmaps.js" />
         <option value="$PROJECT_DIR$/Chart/ux/Highcharts/AreaRangeSerie.js" />
         <option value="$PROJECT_DIR$/Chart/ux/Highcharts/AreaSplineRangeSerie.js" />
@@ -1152,6 +192,7 @@
         <option value="$PROJECT_DIR$/desktop/app/store/ChartsTree.js" />
         <option value="$PROJECT_DIR$/desktop/data/get-charts.json" />
         <option value="$PROJECT_DIR$/desktop/app.js" />
+        <option value="$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js" />
       </list>
     </option>
   </component>
@@ -1182,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1254,6 +296,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Highcharts_Sencha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Highcharts_Sencha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Highcharts_Sencha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Highcharts_Sencha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Chart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1278,13 +360,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/webos/src/main/webapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AmChartsExtjs5" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
@@ -1346,6 +427,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1380,11 +467,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495715669627</updated>
       <workItem from="1495715672902" duration="9925000" />
+      <workItem from="1495805938796" duration="5108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9925000" />
+    <option name="totallyTimeSpent" value="15033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1430" y="-4" width="1857" height="1085" extended-state="6" />
@@ -1392,19 +480,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14847161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1437,7 +525,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/ErrorBarSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/Stock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/Temperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/TempSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/UpdateNoRecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/WaterfallStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/view/chart/Tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECharts/echarts3.6.0/echarts.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1445,7 +575,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/FunnelSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chart/ux/Highmaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/js/dynLoadData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Scatter3d.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1453,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/GaugeSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Speedometer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1461,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/HeatmapSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/NullTemperature.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1469,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/LineSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Scatter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1477,7 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/MapBubbleSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Temperature.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1485,7 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/MapLineSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/TempSummary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1493,7 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/MapPointSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/NetworkUsage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1501,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/MapSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/IrregularData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1509,7 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/PieSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Funnel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1517,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/PyramidSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/IQ.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1525,7 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/RangeSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Chart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1533,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/ScatterSerie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/BubbleMulti.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1541,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/Serie.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/BrowsersJune.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1549,31 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/SolidGaugeSerie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/SplineSerie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts/WaterfallSerie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1423">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/BoxPlotStore.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/Browsers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1597,164 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/BubbleMulti.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/app/store/BubbleSingle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/FunnelStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/IQ.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/IrregularData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/NetworkUsage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/NullTemperature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/NumericTemperature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/Scatter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/Scatter3d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/Speedometer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/Stock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/Temperature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/TempSummary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/UpdateNoRecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/store/WaterfallStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/model/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/controller/Charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="85" column="66" lean-forward="false" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10574">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <marker date="1495723463270" expanded="true" signature="73247:73253" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app/view/chart/Tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1767,39 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/data/get-charts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="337" column="3" lean-forward="true" selection-start-line="337" selection-start-column="3" selection-end-line="337" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ECharts/echarts3.6.0/echarts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chart/ux/Highmaps.js">
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/FunnelStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1809,40 +766,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chart/ux/Highcharts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="81" column="16" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="392">
+          <caret line="459" column="67" lean-forward="false" selection-start-line="459" selection-start-column="61" selection-end-line="459" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/index.jsp">
+    <entry file="file://$PROJECT_DIR$/desktop/data/browsers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/highCharts动态获取数据/WebRoot/js/dynLoadData.js">
+    <entry file="file://$PROJECT_DIR$/desktop/data/browsers_june.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/bubblemulti.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4852">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/get-charts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="337" column="3" lean-forward="true" selection-start-line="337" selection-start-column="3" selection-end-line="337" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/irregular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/netusage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/scatter3d.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/standalone.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/stock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/temp_example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/waterfall.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/funnel.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/data/boxplot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/store/BoxPlotStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/model/BoxPlotData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/ChartsDesktopConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <marker date="1495807543987" expanded="true" signature="73276:73282" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ECharts/ux/ECharts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/app/controller/Charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ECharts/ux/EChartsCompoment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1394">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="30" />
           <folding />
         </state>
       </provider>
